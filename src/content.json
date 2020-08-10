@@ -1,6 +1,147 @@
 {
-  "bio": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  "homeTagline": "Insert one-sentence tagline here, as an introduction to what the company does.",
+  "homeIntro": "Add more descriptive introductory paragraph here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  "approach": [
+    "DeuteRx has pioneered ‘deuterium-enabled chiral switching’ (DECS), a revolutionary approach to improve racemic (a 1:1 mixture of two mirror-image compounds or stereoisomers) small molecule marketed drugs and drug candidates intended for patients across multiple therapeutic indications.",
+    "The development of the single, preferred stereoisomer from the parent racemic drug, also known as a ‘chiral switch’, often leads to drugs with superior therapeutic properties. However, numerous drugs are still developed and marketed as racemic mixtures because their stereoisomers chemically interconvert in vivo. Representative drugs include Actos® (pioglitazone), Aricept® (donepezil), Wellbutrin® (bupropion), and Revlimid® (lenalidomide).",
+    "Replacing the exchangeable hydrogen at the chiral center with deuterium enables stabilization and characterization of the single, preferred stereoisomer with new composition of matter patent protection and an expedited path to market. To date, DeuteRx has demonstrated the use of DECS to stabilize and characterize the stereoisomers of many racemic active ingredients."
+  ],
+  "speedToMarket": [
+    "The development of the single, preferred stereroisomer from the parent racemic drug, also known as a 'chiral switch', often leads to drugs with superior therapeutic properties. Some successful and profitable ‘chiral switches’ include Prilosec® to Nexium® and Celexa® to Lexapro®.",
+    "However, numerous drugs are still developed and marketed as racemic mixtures because their stereoisomers chemically interconvert . To date, DeuteRx has demonstrated the use of deuterium-enabled chiral switching' (DECS) to stabilize and characterize the stereoisomers of many racemic active ingredients. This DECS approach to deuterated drugs can provide new composition of matter patent protection and a derisked path to approval.",
+    "A 505(b)(2) or similar regulatory path has been successfully implemented for several chiral switches as well as deuterated drugs. Notably, the first deuterated drug approved, Austedo® by Teva / Auspex, was developed as an NCE via a 505(b)(2) pathway."
+  ],
+  "validation": [
+    "Since 2010, the team has pioneered deuterium-enabled chiral switching (DECS) of well-known, racemic drugs and/or drug candidates including Revlimid® (lenalidomide), Actos® (pioglitazone), Wellbutrin® (bupropion), and avadomide. Validation of this approach has been demonstrated by asset sales to Celgene in 2012 and Poxel SA in 2018.",
+    "Deuteria Pharmaceuticals Inc. (Deuteria) was the first company founded by the team in December 2010. One of Deuteria’s earliest issued patents, U.S. #8,288,414, has claims covering deuterated S-lenalidomide and disclosure of in vitro studies showing stabilization and differentiation of the S- and R-stereoisomers. In December 2012, Deuteria was acquired by and became a subsidiary of Celgene.",
+    "DeuteRx, LLC was founded in 2012 with several assets from Deuteria that were not acquired by Celgene. In 2015, DeuteRx's lead program was DRX-065, deuterated R-pioglitazone for the treatment of and nonalcoholic steatohepatitis (NASH) and adrenomyeloneuropathy (AMN). In preclinical studies, DeuteRx discovered that the PPARγ activity and related side effects are due to S-pioglitazone while the predicted efficacy for AMN and NASH are due to R-pioglitazone. In 2016, DeuteRx advanced DRX-065 into Phase 1 human clinical trials. In 2018, Poxel acquired PXL065 (formerly DRX-065) and a portfolio of related assets. Poxel announced completion of the Phase 1 studies and plans to initiate a Phase 2 clinical trial in biopsy-proven NASH patients in Q2 2020 via a 505(b)(2) regulatory pathway."
+  ],
+  "team": [
+    {
+      "img": "deuterx-sheila-dewitt.jpeg",
+      "name": "Sheila DeWitt, PhD",
+      "title": "Board Chair, President, & CEO",
+      "bio": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
+    },
+    {
+      "img": "deuterx-vincent-jacques.png",
+      "name": "Vincent Jacques, PhD",
+      "title": "VP Research & Early Development",
+      "bio": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
+    },
+    {
+      "img": "deuterx-tony-czarnik.jpeg",
+      "name": "Anthony W. Czarnik, PhD",
+      "title": "Cofounder, Former Board",
+      "bio": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
+    },
+    {
+      "img": "deuterx-lex-van-der-ploeg.jpeg",
+      "name": "Lex Van der Ploeg, PhD",
+      "title": "Board, Strategy, & R&D Advisor",
+      "bio": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
+    },
+    {
+      "img": "deuterx-mike-webb.jpeg",
+      "name": "Michael Webb",
+      "title": "Board, Business Advisor",
+      "bio": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
+    }
+  ],
+  "advisors": [
+    {
+      "name": "Timothy Barberich",
+      "title": "Business Advisor",
+      "linkedIn": "https://www.linkedin.com/in/tim-barberich-82a81520"
+    },
+    {
+      "name": "Christopher Denn",
+      "title": "Outside Counsel, Goodwin",
+      "linkedIn": "https://www.linkedin.com/in/christopher-denn-5562561"
+    },
+    {
+      "name": "Kim Drapkin, CPA",
+      "title": "Financial Advisor",
+      "linkedIn": "https://www.linkedin.com/in/kim-drapkin-8b36b14/"
+    },
+    {
+      "name": "Robert Johnston",
+      "title": "Business Advisor",
+      "linkedIn": "http://www.jaivc.com/#team-section"
+    },
+    {
+      "name": "Bruce Maryanoff, PhD",
+      "title": "R&D Advisor",
+      "linkedIn": "https://www.linkedin.com/in/bruce-maryanoff-b27bb85/"
+    },
+    {
+      "name": "David Simcox, PhD",
+      "title": "R&D Advisor",
+      "linkedIn": "https://www.linkedin.com/in/p-david-simcox-phd-a310183/"
+    }
+  ],
+  "KOLs": [
+    {
+      "name": "Kenneth Cusi",
+      "title": "NASH",
+      "linkedIn": "https://ufhealth.org/kenneth-cusi"
+    },
+    {
+      "name": "Scott Friedman, MD",
+      "title": "NASH",
+      "linkedIn": "https://icahn.mssm.edu/profiles/scott-l-friedman"
+    },
+    {
+      "name": "Florian Eichler, MD",
+      "title": "ALD/AMN",
+      "linkedIn": "https://www.massgeneral.org/neurology/researcher_profiles/eichler_florian.aspx"
+    },
+    {
+      "name": "Anne Murphy, PhD",
+      "title": "Mitochondrial",
+      "linkedIn": "https://profiles.ucsd.edu/anne.murphy"
+    },
+    {
+      "name": "Ajit Divakaruni, PhD",
+      "title": "Mitochondrial",
+      "linkedIn": "http://faculty.pharmacology.ucla.edu/institution/personnel?personnel_id=8498294"
+    }
+  ],
+  "consultants": [
+    {
+      "name": "Gilbert Block, MD, PhD",
+      "title": "Clinical",
+      "linkedIn": "https://www.linkedin.com/in/gilbert-block-8201a28/"
+    },
+    {
+      "name": "Darryl Patrick, DVM, PhD",
+      "title": "Nonclinical",
+      "linkedIn": "http://cyteir.com/company/darryl-patrick"
+    },
+    {
+      "name": "John Koleng, PhD, RPh",
+      "title": "CMC",
+      "linkedIn": "https://www.linkedin.com/in/koleng/"
+    },
+    {
+      "name": "Robert Silverman, MD, PhD",
+      "title": "Regulatory",
+      "linkedIn": "https://www.linkedin.com/in/robert-silverman-0554b07/"
+    }
   ]
 }

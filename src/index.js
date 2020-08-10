@@ -8,36 +8,27 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Home from './components/Home';
 import About from './components/About';
-import Items from './components/Items';
-import Item from './components/Item';
-import Contact from './components/Contact';
-import Cart from './components/Cart';
+import News from './components/News';
+import Leadership from './components/Leadership';
+import Partnerships from './components/Partnerships';
 import NotFound from './components/NotFound';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import config from './config';
 
-const Routes = ({ items, cart, updateCart }) => (
+const Routes = ({ items }) => (
   <Switch>
     <Route path="/" exact component={Home} />
     <Route path="/about" exact component={About} />
-    <Route path="/items" exact render={() => <Items items={items} />} />
-    <Route path="/items/:itemName" exact render={(props) => <Item match={props.match} items={items} updateCart={updateCart} />} />
-    <Route path="/contact" exact component={Contact} />
-    <Route path="/cart" exact render={() => <Cart items={items} cart={cart} updateCart={updateCart} />} />
+    <Route path="/news" exact render={() => <News items={items} />} />
+    <Route path="/leadership" exact component={Leadership} />
+    <Route path="/partnerships" exact component={Partnerships} />
     <Route component={NotFound} />
   </Switch>
 );
 
 const App = withRouter(() => {
   const [items, setItems] = useState([]);
-  const [cart, setCart] = useState([]);
-
-  const updateCart = (newCart) => {
-    if (newCart) localStorage.setItem('cart', JSON.stringify(newCart));
-    const cartStr = localStorage.getItem('cart');
-    setCart(cartStr ? JSON.parse(cartStr) : []);
-  };
 
   useEffect(() => {
     Promise.all([
@@ -56,16 +47,15 @@ const App = withRouter(() => {
       });
       setItems(itemsList);
     });
-    updateCart();
   }, []);
 
   return (
     <>
-      <NavBar cart={cart} />
+      <NavBar />
       <div className="page-content">
-        <Routes items={items} cart={cart} updateCart={updateCart} />
+        <Routes items={items} />
       </div>
-      {window.location.pathname !== '/' && <Footer />}
+      <Footer />
     </>
   );
 });
