@@ -147,7 +147,7 @@ const Partnerships = () => {
             </FormGroup>
             <FormGroup controlId="message">
               <FormControl
-                rows={10}
+                rows={7}
                 as="textarea"
                 placeholder="Your message"
                 value={message}
