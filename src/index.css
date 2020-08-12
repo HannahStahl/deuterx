@@ -258,6 +258,10 @@ p,a {
   height: 135px;
 }
 
+.read-more {
+  margin-top: 1rem;
+}
+
 .leadership-section-3 {
   background-color: white;
   padding: 60px;
@@ -386,10 +390,6 @@ p,a {
   margin-bottom: 0px;
 }
 
-.footer a {
-  text-decoration: underline;
-}
-
 .link {
   color: #007bff;
 }
@@ -445,9 +445,13 @@ p,a {
     text-align: center;
   }
 
-  .partnership-card, .partnerships form {
+  .partnership-card, .leader-card, .partnerships form {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .leader-card {
+    margin-top: 0px;
   }
 }
 
@@ -455,6 +459,9 @@ p,a {
   .link:hover {
     cursor: pointer;
     color: #0056b3;
-    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 }

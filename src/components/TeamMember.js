@@ -12,10 +12,10 @@ export default ({ member, index }) => {
         <img src={`${config.publicCloudfrontURL}/${member.img}`} alt={member.name} />
       )}
       <div className="team-member-details">
-        <h3>{member.name}</h3>
+        <a href={member.linkedIn}><h3>{member.name}</h3></a>
         <p className="team-member-title">{member.title}</p>
-        <p className={`team-member-bio${expanded ? '' : ' collapsed'}`}>{member.bio.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</p>
-        <p onClick={() => setExpanded(!expanded)} className="link">{`Read ${expanded ? 'less' : 'more'}`}</p>
+        <div className={`team-member-bio${expanded ? '' : ' collapsed'}`}>{member.bio.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
+        <p onClick={() => setExpanded(!expanded)} className="read-more link">{`Read ${expanded ? 'less' : 'more'}`}</p>
       </div>
       {!mobile && index % 2 === 1 && (
         <img src={`${config.publicCloudfrontURL}/${member.img}`} alt={member.name} />
