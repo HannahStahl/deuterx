@@ -218,7 +218,6 @@ p,a {
 
 .team-member {
   display: flex;
-  align-items: center;
   margin-bottom: 30px;
   border-radius: 10px;
   border: solid 1px #ddd;
@@ -249,6 +248,14 @@ p,a {
 
 .team-member-details {
   margin: 30px;
+}
+
+.team-member-bio {
+  overflow-y: hidden;
+}
+
+.team-member-bio.collapsed {
+  height: 135px;
 }
 
 .leadership-section-3 {
@@ -383,6 +390,10 @@ p,a {
   text-decoration: underline;
 }
 
+.link {
+  color: #007bff;
+}
+
 @media all and (max-width: 1126px) {
   .contact-info {
     margin-bottom: 0px;
@@ -437,5 +448,13 @@ p,a {
   .partnership-card, .partnerships form {
     margin-left: 0px;
     margin-right: 0px;
+  }
+}
+
+@media all and (hover: hover) {
+  .link:hover {
+    cursor: pointer;
+    color: #0056b3;
+    text-decoration: underline;
   }
 }

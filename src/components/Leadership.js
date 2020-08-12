@@ -1,8 +1,7 @@
 import React from 'react';
 import content from '../content.json';
 import config from '../config';
-
-const mobile = window.innerWidth <= 991;
+import TeamMember from './TeamMember';
 
 const Leadership = () => (
   <div className="leadership">
@@ -22,20 +21,7 @@ const Leadership = () => (
       <h1>Management Team</h1>
       <div className="team-members">
         {content.team.map((member, index) => (
-          <div key={member.name} className={`team-member${!mobile && index % 2 === 1 ? ' right-aligned' : ''}`}>
-            {(mobile || index % 2 === 0) && (
-              <img src={`${config.publicCloudfrontURL}/${member.img}`} alt={member.name} />
-            )}
-            <div className="team-member-details">
-              <h3>{member.name}</h3>
-              <p className="team-member-title">{member.title}</p>
-              {member.bio.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-              <a href="#">Read more</a>
-            </div>
-            {!mobile && index % 2 === 1 && (
-              <img src={`${config.publicCloudfrontURL}/${member.img}`} alt={member.name} />
-            )}
-          </div>
+          <TeamMember key={member.name} member={member} index={index} />
         ))}
       </div>
     </div>
