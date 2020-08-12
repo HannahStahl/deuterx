@@ -2,7 +2,7 @@ import React from 'react';
 import config from '../config';
 import content from '../content.json';
 
-const Home = () => (
+const Home = ({ items }) => (
   <>
     <img
       src={`${config.publicCloudfrontURL}/deuterx-water-splash.jpg`}
@@ -25,26 +25,14 @@ const Home = () => (
     </div>
     <div className="home-section-3">
       <div className="news-cards">
-        <div className="news-card">
-          <h3>News Item Number One Title Goes Here</h3>
-          <p>Subtitle for first news item goes here, offering a preview to the full publication.</p>
-        </div>
-        <div className="news-card">
-          <h3>Longer News Item Number Two Title Goes Here</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div className="news-card">
-          <h3>News Item Number Three</h3>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
-          </p>
-        </div>
+        {items.sort((a, b) => b.datePublished - a.datePublished).slice(0, 3).map((item) => (
+          <div className="news-card">
+            <h3>{item.itemName}</h3>
+            <p>{item.itemSubtitle}</p>
+          </div>
+        ))}
       </div>
-      <a href="/items">View all publications</a>
+      <a href="/news">View all publications</a>
     </div>
   </>
 );

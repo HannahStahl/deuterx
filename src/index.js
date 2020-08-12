@@ -18,7 +18,7 @@ import config from './config';
 
 const Routes = ({ items }) => (
   <Switch>
-    <Route path="/" exact component={Home} />
+    <Route path="/" exact render={() => <Home items={items} />} />
     <Route path="/about" exact component={About} />
     <Route path="/news" exact render={() => <News items={items} />} />
     <Route path="/leadership" exact component={Leadership} />

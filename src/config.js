@@ -3,7 +3,7 @@ const dev = {
   cloudfrontBaseURL: 'https://d1ljva6zkf6zjh.cloudfront.net',
   emailURL: 'https://c0mrk8va37.execute-api.us-east-1.amazonaws.com/dev/email/send',
   emailAddress: 'hannahstahl14@gmail.com',
-  userID: 'us-east-1:34ee9094-c95a-4f8f-b2c2-551ef33bd49f',
+  userID: 'us-east-1:f351b283-a7ba-47a2-97a4-6a35127b601a',
 };
 
 const prod = {
