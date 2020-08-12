@@ -26,7 +26,7 @@ const Home = ({ items }) => (
     <div className="home-section-3">
       <div className="news-cards">
         {items.sort((a, b) => b.datePublished - a.datePublished).slice(0, 3).map((item) => (
-          <div className="news-card">
+          <div className="news-card" key={item.itemId}>
             <h3>{item.itemName}</h3>
             <p>{item.itemSubtitle}</p>
           </div>

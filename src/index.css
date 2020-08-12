@@ -77,11 +77,20 @@ h3 {
   z-index: -1;
 }
 
-.home-section-1, .leadership-section-1, .news-section-1 {
+.home-section-1, .leadership-section-1, .news-section-1, .our-approach-section-1, .partnerships-section-1 {
   height: min(500px, calc(100vh - 81px));
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 60px;
+}
+
+.our-approach-section-1 {
+  justify-content: flex-end;
+}
+
+.partnerships-section-1 {
+  justify-content: flex-start;
 }
 
 .home-section-1-content, .leadership-section-1-content, .news-section-1-content {
@@ -140,14 +149,6 @@ p,a {
 
 .home-section-3 .news-card {
   background-color: white;
-}
-
-.our-approach-section-1 {
-  height: min(500px, calc(100vh - 81px));
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 60px;
 }
 
 .our-approach-section-1-content {
@@ -290,10 +291,6 @@ p,a {
 }
 
 .partnerships-section-1 {
-  height: min(500px, calc(100vh - 81px));
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   padding: 60px;
 }
 
@@ -403,7 +400,7 @@ p,a {
     background-color: rgba(255, 255, 255, 0.8);
   }
 
-  .our-approach-section-1, .leadership-section-1, .partnerships-section-1 {
+  .home-section-1, .leadership-section-1, .news-section-1, .our-approach-section-1, .partnerships-section-1 {
     padding: 0px;
   }
 
