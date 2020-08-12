@@ -11,7 +11,7 @@ const prod = {
   cloudfrontBaseURL: 'https://d1esxin5o90ebg.cloudfront.net',
   emailURL: 'https://aiikn63n03.execute-api.us-east-1.amazonaws.com/prod/email/send',
   emailAddress: 'info@deuterx.com',
-  userID: 'us-east-1:e51b2b71-8b21-46c0-a302-6f3b84783041', // TODO change to client's user ID
+  userID: 'us-east-1:8ff9d025-d81b-4dc4-9b22-91fee2573eb8',
 };
 
 // Default to dev if not set
