@@ -171,7 +171,7 @@ const Partnerships = () => {
             </div>
             <div className="contact-method">
               <p><i className="fas fa-envelope" /></p>
-              <a href={`mailto:${config.emailAddress}`}>{config.emailAddress}</a>
+              <a className="no-fuschia" href={`mailto:${config.emailAddress}`}>{config.emailAddress}</a>
             </div>
             <div className="contact-method">
               <p><i className="fas fa-map-marker-alt" /></p>
