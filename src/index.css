@@ -379,10 +379,6 @@ a.no-fuschia {
   margin: 30px;
 }
 
-.form-control {
-  border-color: var(--fuschia);
-}
-
 .form-control:focus {
   border-color: var(--fuschia);
   box-shadow: 0 0 0 0.2rem var(--light-fuschia);
