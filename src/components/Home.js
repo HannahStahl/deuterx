@@ -20,7 +20,10 @@ const Home = ({ items }) => (
       <div className="home-section-2-content">
         <h3>{content.homeTagline}</h3>
         <p>{content.homeIntro}</p>
-        <a href="/about">Learn more</a>
+        <a href="/about">
+          Learn more
+          <i className="fas fa-angle-right" />
+        </a>
       </div>
     </div>
     <div className="home-section-3">
@@ -32,7 +35,10 @@ const Home = ({ items }) => (
           </div>
         ))}
       </div>
-      <a href="/news">View all publications</a>
+      <a href="/news">
+        View all publications
+        <i className="fas fa-angle-right" />
+      </a>
     </div>
   </>
 );

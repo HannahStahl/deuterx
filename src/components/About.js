@@ -3,7 +3,7 @@ import config from '../config';
 import content from '../content.json';
 
 const About = () => (
-  <>
+  <div className="our-approach">
     <div className="our-approach-section-1">
       <img
         src={`${config.publicCloudfrontURL}/deuterx-molecule.jpg`}
@@ -30,17 +30,21 @@ const About = () => (
         <h2>Speed to Market</h2>
         {content.speedToMarket.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
       </div>
+      <i className="fas fa-vial background-icon" />
     </div>
     <div className="our-approach-section-4">
       <div className="our-approach-section-4-content">
         <h2>Validation</h2>
         {content.validation.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         <div className="partnerships-link">
-          <a href="/partnerships">View our pipeline & partnerships</a>
+          <a href="/partnerships">
+            View our pipeline & partnerships
+            <i className="fas fa-angle-right" />
+          </a>
         </div>
       </div>
     </div>
-  </>
+  </div>
 );
 
 export default About;
