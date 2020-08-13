@@ -18,7 +18,13 @@ const News = ({ items }) => (
     <div className="news-section-2">
       <div className="news-cards">
         {items.sort((a, b) => b.datePublished - a.datePublished).map((item) => (
-          <div className="news-card" key={item.itemId}>
+          <div
+            key={item.itemId}
+            className="news-card"
+            onClick={() => {
+              window.location.href = item.itemPdfLink || `${config.cloudfrontURL}/${item.itemPdf}`;
+            }}
+          >
             <h3>{item.itemName}</h3>
             <p>{item.itemSubtitle}</p>
           </div>

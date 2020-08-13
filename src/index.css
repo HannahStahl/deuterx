@@ -541,4 +541,8 @@ a.no-fuschia {
     border-color: var(--dark-fuschia) !important;
     color: white !important;
   }
+
+  .news-card:hover {
+    cursor: pointer;
+  }
 }
