@@ -137,6 +137,11 @@ a.no-fuschia {
 .home-section-2-content p {
   margin-top: 20px;
   margin-bottom: 30px;
+  text-align: left;
+}
+
+.home-section-2-content h3 {
+  text-align: left;
 }
 
 .home-section-3 {
