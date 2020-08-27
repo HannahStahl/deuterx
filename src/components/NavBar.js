@@ -8,7 +8,7 @@ const NavBar = () => (
     <Navbar.Brand href="/">
       <img
         alt="Home"
-        src={`${config.publicCloudfrontURL}/deuterx-logo.jpg`}
+        src={`${config.publicCloudfrontURL}/deuterx-logo${window.devicePixelRatio > 1 ? '-2x' : ''}.png`}
         height="60"
         className="d-inline-block align-top"
       />
