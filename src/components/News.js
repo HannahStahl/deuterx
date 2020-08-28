@@ -20,7 +20,7 @@ const News = ({ items }) => {
       <div className="news-section-1">
         <div className="news-section-1-content">
           <h1>News and Events</h1>
-          <h3>Insert subheader for news section here</h3>
+          <h3>Making waves with heavy water</h3>
         </div>
       </div>
       <div className="news-section-2">
