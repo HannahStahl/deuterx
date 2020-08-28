@@ -4,6 +4,8 @@ const dev = {
   emailURL: 'https://c0mrk8va37.execute-api.us-east-1.amazonaws.com/dev/email/send',
   emailAddress: 'hannahstahl14@gmail.com',
   userID: 'us-east-1:f351b283-a7ba-47a2-97a4-6a35127b601a',
+  publicationItemTypeId: '4',
+  articleItemTypeId: '5',
 };
 
 const prod = {
@@ -12,6 +14,8 @@ const prod = {
   emailURL: 'https://aiikn63n03.execute-api.us-east-1.amazonaws.com/prod/email/send',
   emailAddress: 'info@deuterx.com',
   userID: 'us-east-1:8ff9d025-d81b-4dc4-9b22-91fee2573eb8',
+  publicationItemTypeId: '9',
+  articleItemTypeId: '10',
 };
 
 // Default to dev if not set

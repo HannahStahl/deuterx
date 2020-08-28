@@ -3,8 +3,12 @@ import config from '../config';
 
 const News = ({ items }) => {
   const sortedItems = items.sort((a, b) => b.datePublished - a.datePublished);
-  const publications = sortedItems.filter((item) => item.itemPdf);
-  const articles = sortedItems.filter((item) => item.itemPdfLink);
+  const publications = sortedItems.filter(
+    (item) => item.cmsPageConfigId === config.publicationItemTypeId,
+  );
+  const articles = sortedItems.filter(
+    (item) => item.cmsPageConfigId === config.articleItemTypeId,
+  );
   return (
     <div className="news">
       <img
