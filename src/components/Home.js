@@ -42,7 +42,7 @@ const Home = ({ items }) => (
         ))}
       </div>
       <a href="/news">
-        View all publications
+        View all news and events
         <i className="fas fa-angle-right" />
       </a>
     </div>
