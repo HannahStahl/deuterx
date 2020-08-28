@@ -173,6 +173,10 @@ a.no-fuschia {
   box-shadow: -5px 5px 5px 0px #ddd;
 }
 
+.news-card p:last-of-type {
+  margin-bottom: 0px;
+}
+
 .home-section-3 .news-card, .news-section-3 .news-card {
   background-color: white;
 }

@@ -37,7 +37,12 @@ const Home = ({ items }) => (
             }}
           >
             <h3>{item.itemName}</h3>
-            <p>{item.itemSubtitle}</p>
+            {item.itemSubtitle && item.itemSubtitle.length > 0 && (
+              <p>{item.itemSubtitle}</p>
+            )}
+            {item.itemSourceDate && item.itemSourceDate.length > 0 && (
+              <p><i>{item.itemSourceDate}</i></p>
+            )}
           </div>
         ))}
       </div>
