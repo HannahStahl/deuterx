@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 import config from '../config';
 import content from '../content.json';
@@ -23,10 +24,10 @@ const Home = ({ items }) => (
       <div className="home-section-2-content">
         <h3>{content.homeTagline}</h3>
         <p>{content.homeIntro}</p>
-        <a href="/about">
+        <NavLink to="/about">
           Learn more
           <i className="fas fa-angle-right" />
-        </a>
+        </NavLink>
       </div>
     </div>
     <div className="home-section-3">
@@ -49,10 +50,10 @@ const Home = ({ items }) => (
           </div>
         ))}
       </div>
-      <a href="/news">
+      <NavLink to="/news">
         View all news and events
         <i className="fas fa-angle-right" />
-      </a>
+      </NavLink>
     </div>
   </>
 );

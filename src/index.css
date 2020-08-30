@@ -24,6 +24,14 @@ code {
     monospace;
 }
 
+.page-enter, .page-exit-active {
+  opacity: 0;
+}
+
+.page-enter-active, .page-exit {
+  opacity: 1;
+}
+
 nav {
   background-color: white;
 }

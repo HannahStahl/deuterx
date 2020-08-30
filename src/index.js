@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import {
-  BrowserRouter, withRouter, Route, Switch,
-} from 'react-router-dom';
+import { BrowserRouter, withRouter, Route } from 'react-router-dom';
+import { CSSTransition } from 'react-transition-group';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
@@ -11,23 +10,43 @@ import About from './components/About';
 import News from './components/News';
 import Leadership from './components/Leadership';
 import Partnerships from './components/Partnerships';
-import NotFound from './components/NotFound';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import config from './config';
 
-const Routes = ({ items }) => (
-  <Switch>
-    <Route path="/" exact render={() => <Home items={items} />} />
-    <Route path="/about" exact component={About} />
-    <Route path="/news" exact render={() => <News items={items} />} />
-    <Route path="/leadership" exact component={Leadership} />
-    <Route path="/partnerships" exact component={Partnerships} />
-    <Route component={NotFound} />
-  </Switch>
-);
+const Routes = ({ items }) => {
+  const routes = [
+    { path: '/', Component: Home, props: { items } },
+    { path: '/about', Component: About },
+    { path: '/news', Component: News, props: { items } },
+    { path: '/leadership', Component: Leadership },
+    { path: '/partnerships', Component: Partnerships },
+  ];
 
-const App = withRouter(() => {
+  return (
+    <>
+      {routes.map(({ path, Component, props }) => (
+        <Route key={path} exact path={path}>
+          {({ match }) => (
+            <CSSTransition
+              in={match !== null}
+              timeout={0}
+              classNames="page"
+              unmountOnExit
+            >
+              <div className="page">
+                {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+                <Component {...props} match={match} />
+              </div>
+            </CSSTransition>
+          )}
+        </Route>
+      ))}
+    </>
+  );
+};
+
+const App = withRouter((props) => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
@@ -48,6 +67,10 @@ const App = withRouter(() => {
       setItems(itemsList);
     });
   }, []);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [props.location]);
 
   return (
     <>

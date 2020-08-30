@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 import config from '../config';
 import content from '../content.json';
@@ -40,10 +41,10 @@ const About = () => (
         <h2>Validation</h2>
         {content.validation.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         <div className="partnerships-link">
-          <a href="/partnerships">
+          <NavLink to="/partnerships">
             View our pipeline & partnerships
             <i className="fas fa-angle-right" />
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>
