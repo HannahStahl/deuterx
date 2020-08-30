@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 import config from '../config';
 
 const News = ({ items }) => {
@@ -16,13 +17,15 @@ const News = ({ items }) => {
         alt={config.businessName}
         className="fixed-image"
       />
-      <div className="image-overlay" />
-      <div className="news-section-1">
-        <div className="news-section-1-content">
-          <h1>News and Events</h1>
-          <h3>Making waves with heavy water</h3>
+      <Fade><div className="image-overlay" /></Fade>
+      <Fade>
+        <div className="news-section-1">
+          <div className="news-section-1-content">
+            <h1>News and Events</h1>
+            <h3>Making waves with heavy water</h3>
+          </div>
         </div>
-      </div>
+      </Fade>
       <div className="news-section-2">
         <h1>Publications & Posters</h1>
         <div className="news-cards">

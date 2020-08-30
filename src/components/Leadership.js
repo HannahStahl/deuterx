@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 import content from '../content.json';
 import config from '../config';
 import TeamMember from './TeamMember';
@@ -10,13 +11,15 @@ const Leadership = () => (
       alt={config.businessName}
       className="fixed-image"
     />
-    <div className="image-overlay" />
-    <div className="leadership-section-1">
-      <div className="leadership-section-1-content">
-        <h1>Proven Track Record</h1>
-        <h3>of Creating Value for Shareholders and Therapeutics for Patients</h3>
+    <Fade><div className="image-overlay" /></Fade>
+    <Fade>
+      <div className="leadership-section-1">
+        <div className="leadership-section-1-content">
+          <h1>Proven Track Record</h1>
+          <h3>of Creating Value for Shareholders and Therapeutics for Patients</h3>
+        </div>
       </div>
-    </div>
+    </Fade>
     <div className="leadership-section-2">
       <h1>Management Team</h1>
       <div className="team-members">

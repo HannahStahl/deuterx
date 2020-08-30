@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 import config from '../config';
 import content from '../content.json';
 
@@ -9,13 +10,15 @@ const Home = ({ items }) => (
       alt={config.businessName}
       className="fixed-image"
     />
-    <div className="image-overlay" />
-    <div className="home-section-1">
-      <div className="home-section-1-content">
-        <h1>Improving Medicines for Patients</h1>
-        <h3>with Deuterium-Enabled Chiral Switching</h3>
+    <Fade><div className="image-overlay" /></Fade>
+    <Fade>
+      <div className="home-section-1">
+        <div className="home-section-1-content">
+          <h1>Improving Medicines for Patients</h1>
+          <h3>with Deuterium-Enabled Chiral Switching</h3>
+        </div>
       </div>
-    </div>
+    </Fade>
     <div className="home-section-2">
       <div className="home-section-2-content">
         <h3>{content.homeTagline}</h3>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Fade } from 'react-reveal';
 import FormGroup from 'react-bootstrap/FormGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
@@ -51,11 +52,13 @@ const Partnerships = () => {
           alt={config.businessName}
           className="fixed-image"
         />
-        <div className="image-overlay" />
-        <div className="partnerships-section-1-content">
-          <h1>Compelling Commercial Strategy</h1>
-          <h3>and Large Portfolio of Product Opportunities</h3>
-        </div>
+        <Fade><div className="image-overlay" /></Fade>
+        <Fade>
+          <div className="partnerships-section-1-content">
+            <h1>Compelling Commercial Strategy</h1>
+            <h3>and Large Portfolio of Product Opportunities</h3>
+          </div>
+        </Fade>
       </div>
       <div className="partnerships-section-2">
         <div className="partnerships-cards">
