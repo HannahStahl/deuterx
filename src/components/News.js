@@ -22,7 +22,7 @@ const News = ({ items }) => {
         <div className="news-section-1">
           <div className="news-section-1-content">
             <h1>News and Events</h1>
-            <h3>Making waves with heavy water</h3>
+            <h3>Making Waves with Heavy Water</h3>
           </div>
         </div>
       </Fade>
@@ -34,7 +34,7 @@ const News = ({ items }) => {
               key={item.itemId}
               className="news-card"
               onClick={() => {
-                window.location.href = `${config.cloudfrontURL}/${item.itemPdf}`;
+                window.location.href = item.itemPdfLink || `${config.cloudfrontURL}/${item.itemPdf}`;
               }}
             >
               <h3>{item.itemName}</h3>
@@ -56,7 +56,7 @@ const News = ({ items }) => {
               key={item.itemId}
               className="news-card"
               onClick={() => {
-                window.location.href = item.itemPdfLink;
+                window.location.href = item.itemPdfLink || `${config.cloudfrontURL}/${item.itemPdf}`;
               }}
             >
               <h3>{item.itemName}</h3>
