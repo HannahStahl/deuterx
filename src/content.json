@@ -2,13 +2,13 @@
   "homeTagline": "At DeuteRx, we are devoted to improving patients' lives and advancing small molecule therapies through Deuterium-Enriched Chiral Switching (DECS).",
   "homeIntro": "Formed in 2012, DeuteRx is a virtual biopharmaceutical company focused on improving racemic drugs for patients. Our team has pioneered the use of Deuterium-Enabled Chiral Switching (DECS) to isolate a single stereoisomer from a mixture of interconverting stereoisomers. This revolutionary strategy stabilizes the preferred stereoisomer in existing drugs sold as racemic mixtures to reduce deleterious side-effects and improve efficacy. We have applied DECS to a wide range of clinical therapies, including the deuterium-stabilized R-stereoisomer of pioglitazone for nonalcoholic steatohepatitis (NASH) (PXL065, acquired by Poxel in 2018) and the deuterium-stabilized S-stereoisomer of lenalidomide (DRX-053, acquired by Celgene in 2012).",
   "approach": [
-    "DeuteRx has pioneered ‘deuterium-enabled chiral switching’ (DECS), a revolutionary approach to improve racemic (a 1:1 mixture of two mirror-image compounds or stereoisomers) small molecule marketed drugs and drug candidates intended for patients across multiple therapeutic indications.",
-    "The development of the single, preferred stereoisomer from the parent racemic drug, also known as a ‘chiral switch’, often leads to drugs with superior therapeutic properties. However, numerous drugs are still developed and marketed as racemic mixtures because their stereoisomers chemically interconvert in vivo. Representative drugs include Actos® (pioglitazone), Aricept® (donepezil), Wellbutrin® (bupropion), and Revlimid® (lenalidomide).",
+    "DeuteRx has pioneered 'deuterium-enabled chiral switching,' (DECS) a revolutionary approach to improve racemic (a 1:1 mixture of two mirror-image compounds or stereoisomers) small molecule marketed drugs and drug candidates intended for patients across multiple therapeutic indications.",
+    "The development of the single, preferred stereoisomer from the parent racemic drug, also known as a 'chiral switch,' often leads to drugs with superior therapeutic properties. However, numerous drugs are still developed and marketed as racemic mixtures because their stereoisomers chemically interconvert in vivo. Representative drugs include Actos® (pioglitazone), Aricept® (donepezil), Wellbutrin® (bupropion), and Revlimid® (lenalidomide).",
     "Replacing the exchangeable hydrogen at the chiral center with deuterium enables stabilization and characterization of the single, preferred stereoisomer with new composition of matter patent protection and an expedited path to market. To date, DeuteRx has demonstrated the use of DECS to stabilize and characterize the stereoisomers of many racemic active ingredients."
   ],
   "speedToMarket": [
-    "The development of the single, preferred stereroisomer from the parent racemic drug, also known as a 'chiral switch', often leads to drugs with superior therapeutic properties. Some successful and profitable ‘chiral switches’ include Prilosec® to Nexium® and Celexa® to Lexapro®.",
-    "However, numerous drugs are still developed and marketed as racemic mixtures because their stereoisomers chemically interconvert . To date, DeuteRx has demonstrated the use of deuterium-enabled chiral switching' (DECS) to stabilize and characterize the stereoisomers of many racemic active ingredients. This DECS approach to deuterated drugs can provide new composition of matter patent protection and a derisked path to approval.",
+    "The development of the single, preferred stereroisomer from the parent racemic drug, also known as a 'chiral switch,' often leads to drugs with superior therapeutic properties. Some successful and profitable 'chiral switches' include Prilosec® to Nexium® and Celexa® to Lexapro®.",
+    "However, numerous drugs are still developed and marketed as racemic mixtures because their stereoisomers chemically interconvert. To date, DeuteRx has demonstrated the use of deuterium-enabled chiral switching (DECS) to stabilize and characterize the stereoisomers of many racemic active ingredients. This DECS approach to deuterated drugs can provide new composition of matter patent protection and a derisked path to approval.",
     "A 505(b)(2) or similar regulatory path has been successfully implemented for several chiral switches as well as deuterated drugs. Notably, the first deuterated drug approved, Austedo® by Teva / Auspex, was developed as an NCE via a 505(b)(2) pathway."
   ],
   "validation": [
@@ -31,7 +31,7 @@
     {
       "img": "deuterx-vincent-jacques.png",
       "name": "Vincent Jacques, PhD",
-      "title": "VP Research & Early Development",
+      "title": "SVP of Research & Early Development",
       "linkedIn": "https://www.linkedin.com/in/vincent-jacques-88b8181/",
       "bio": [
         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.",
@@ -41,7 +41,7 @@
     {
       "img": "deuterx-tony-czarnik.jpeg",
       "name": "Anthony W. Czarnik, PhD",
-      "title": "Cofounder, Former Board",
+      "title": "Former Board, Scientific Advisor",
       "linkedIn": "https://www.linkedin.com/in/awczarnik/",
       "bio": [
         "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
@@ -51,7 +51,7 @@
     {
       "img": "deuterx-lex-van-der-ploeg.jpeg",
       "name": "Lex Van der Ploeg, PhD",
-      "title": "Board, Strategy, & R&D Advisor",
+      "title": "Board, Strategy and R&D Advisor",
       "linkedIn": "https://www.linkedin.com/in/lex-van-der-ploeg-9b800bb/",
       "bio": [
         "Since 2019, Lex H.T. Van der Ploeg is Chair, President, and CEO for Yao - The Bard, LLC a digital therapeutics biotech company, located in the Boston/Cambridge area, focused on the treatment of diverse learning disabilities and other neurologic indications. Lex also functions as Managing Director for VDP, LLC, an independent consulting agency focused on guiding Research and Development for the Biotechnology and Pharmaceutical Industries and private investors. At VDP, LLC, Lex focuses on supporting R&D initiatives from a strategic and tactical perspective, as an integrated member of management and R&D teams. In this capacity, Lex functions as a member of the Board of Directors for Retrotope Inc., as an advisor to and DeuteRx, LLC, a member of the SAB for Excellentia Global partners, an Advisor to Inkef Capital, NonPareil biotechnologies and Rhythm Pharmaceuticals.",

@@ -42,7 +42,7 @@ const About = () => (
         {content.validation.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         <div className="partnerships-link">
           <NavLink to="/partnerships">
-            View our pipeline & partnerships
+            View our partnerships
             <i className="fas fa-angle-right" />
           </NavLink>
         </div>
