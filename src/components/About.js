@@ -8,7 +8,7 @@ const About = () => (
   <div className="our-approach">
     <div className="our-approach-section-1">
       <img
-        src={`${config.publicCloudfrontURL}/deuterx-molecule.jpg`}
+        src={`${config.publicCloudfrontURL}/deuterx-molecule-highres.jpg`}
         alt={config.businessName}
         className="fixed-image"
       />
