@@ -48,7 +48,7 @@ const Partnerships = () => {
     <div className="partnerships">
       <div className="partnerships-section-1">
         <img
-          src={`${config.publicCloudfrontURL}/deuterx-pill-in-water.jpeg`}
+          src={`${config.publicCloudfrontURL}/deuterx-pill-in-water-v2.jpeg`}
           alt={config.businessName}
           className="fixed-image"
         />

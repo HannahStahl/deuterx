@@ -13,7 +13,7 @@ const News = ({ items }) => {
   return (
     <div className="news">
       <img
-        src={`${config.publicCloudfrontURL}/deuterx-vials.jpg`}
+        src={`${config.publicCloudfrontURL}/deuterx-waves.jpg`}
         alt={config.businessName}
         className="fixed-image"
       />

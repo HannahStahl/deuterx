@@ -3,18 +3,21 @@
   "homeIntro": "Formed in 2012, DeuteRx is a virtual biopharmaceutical company focused on improving racemic drugs for patients. Our team has pioneered the use of Deuterium-Enabled Chiral Switching (DECS) to isolate a single stereoisomer from a mixture of interconverting stereoisomers. This revolutionary strategy stabilizes the preferred stereoisomer in existing drugs sold as racemic mixtures to reduce deleterious side-effects and improve efficacy. We have applied DECS to a wide range of clinical therapies, including the deuterium-stabilized R-stereoisomer of pioglitazone for nonalcoholic steatohepatitis (NASH) (PXL065, acquired by Poxel in 2018) and the deuterium-stabilized S-stereoisomer of lenalidomide (DRX-053, acquired by Celgene in 2012).",
   "approach": [
     "DeuteRx has pioneered 'deuterium-enabled chiral switching,' (DECS) a revolutionary approach to improve racemic (a 1:1 mixture of two mirror-image compounds or stereoisomers) small molecule marketed drugs and drug candidates intended for patients across multiple therapeutic indications.",
-    "The development of the single, preferred stereoisomer from the parent racemic drug, also known as a 'chiral switch,' often leads to drugs with superior therapeutic properties. However, numerous drugs are still developed and marketed as racemic mixtures because their stereoisomers chemically interconvert in vivo. Representative drugs include Actos® (pioglitazone), Aricept® (donepezil), Wellbutrin® (bupropion), and Revlimid® (lenalidomide).",
-    "Replacing the exchangeable hydrogen at the chiral center with deuterium enables stabilization and characterization of the single, preferred stereoisomer with new composition of matter patent protection and an expedited path to market. To date, DeuteRx has demonstrated the use of DECS to stabilize and characterize the stereoisomers of many racemic active ingredients."
+    "DECS is a revolutionary strategy that stabilizes the preferred stereoisomer in existing drugs sold as racemic mixtures to reduce deleterious side-effects and improve efficacy. Numerous drugs are still developed and marketed as racemic mixtures because their stereoisomers chemically interconvert <i>in vivo</i>. Representative drugs include Actos® (pioglitazone), Aricept® (donepezil), Wellbutrin® (bupropion), and Revlimid® (lenalidomide).",
+    "The development of the single, preferred stereoisomer from the parent racemic drug, also known as a 'chiral switch,' often leads to drugs with superior therapeutic properties. Replacing the exchangeable hydrogen at the chiral center with deuterium enables stabilization and characterization of the single, preferred stereoisomer with a new composition of matter patent protection and an expedited path to market. To date, DeuteRx has stabilized and characterized the stereoisomers of many racemic active ingredients using deuterium-enabled chiral switching (DECS)."
+  ],
+  "innovation": [
+    "Selecting for a single stereoisomer can improve drug profiles and offers impressive financial returns; several drugs on the market illustrate the benefits of isolating a single stereoisomer from the  parent racemate. Some successful and profitable 'chiral switches' include Prilosec® to Nexium® and Celexa® to Lexapro®. Benefits include increased efficacy, stabilized PK, decreased adverse events, and improved safety profiles.",
+    "There still exist, however, drugs that are sold as mixtures of two stereoisomers because the stereoisomers interconvert <i>in vivo</i>, even if they are separated prior to dosing. Traditionally, racemic drugs that interconvert <i>in vivo</i> are considered impossible to separate into deliverable stereoisomers. The application of DECS has successfully contradicted this theory and allows for stereoselectivity, even after introduction to mammals. DECS is capable of separating these drug candidates, because it introduces deuterium – a stable, non-radioactive isotope of hydrogen – at the chiral center, thereby reducing the interconversion into the undesirable stereoisomer."
   ],
   "speedToMarket": [
-    "The development of the single, preferred stereroisomer from the parent racemic drug, also known as a 'chiral switch,' often leads to drugs with superior therapeutic properties. Some successful and profitable 'chiral switches' include Prilosec® to Nexium® and Celexa® to Lexapro®.",
-    "However, numerous drugs are still developed and marketed as racemic mixtures because their stereoisomers chemically interconvert. To date, DeuteRx has demonstrated the use of deuterium-enabled chiral switching (DECS) to stabilize and characterize the stereoisomers of many racemic active ingredients. This DECS approach to deuterated drugs can provide new composition of matter patent protection and a derisked path to approval.",
-    "A 505(b)(2) or similar regulatory path has been successfully implemented for several chiral switches as well as deuterated drugs. Notably, the first deuterated drug approved, Austedo® by Teva / Auspex, was developed as an NCE via a 505(b)(2) pathway."
+    "The DECS approach to deuterated drugs can provide new composition of matter patent protection and a derisked path to approval. Because deuterium is a non-radioactive, biologically stable isotope of hydrogen, hydrogen’s replacement with deuterium at a chiral center does not change the mechanism of action (MOA) of a compound. Therefore, DECS allows for drug improvement without alteration of the fundamental characteristics and can use existing safety profiles.",
+    "A 505(b)(2) or similar regulatory path has been successfully implemented for several chiral switches as well as deuterated drugs. Notably, the first deuterated drug approved, Austedo® by Teva/Auspex, was developed as an NCE via a 505(b)(2) pathway."
   ],
   "validation": [
-    "Since 2010, the team has pioneered deuterium-enabled chiral switching (DECS) of well-known, racemic drugs and/or drug candidates including Revlimid® (lenalidomide), Actos® (pioglitazone), Wellbutrin® (bupropion), and avadomide. Validation of this approach has been demonstrated by asset sales to Celgene in 2012 and Poxel SA in 2018.",
-    "Deuteria Pharmaceuticals Inc. (Deuteria) was the first company founded by the team in December 2010. One of Deuteria’s earliest issued patents, U.S. #8,288,414, has claims covering deuterated S-lenalidomide and disclosure of in vitro studies showing stabilization and differentiation of the S- and R-stereoisomers. In December 2012, Deuteria was acquired by and became a subsidiary of Celgene.",
-    "DeuteRx, LLC was founded in 2012 with several assets from Deuteria that were not acquired by Celgene. In 2015, DeuteRx's lead program was DRX-065, deuterated R-pioglitazone for the treatment of and nonalcoholic steatohepatitis (NASH) and adrenomyeloneuropathy (AMN). In preclinical studies, DeuteRx discovered that the PPARγ activity and related side effects are due to S-pioglitazone while the predicted efficacy for AMN and NASH are due to R-pioglitazone. In 2016, DeuteRx advanced DRX-065 into Phase 1 human clinical trials. In 2018, Poxel acquired PXL065 (formerly DRX-065) and a portfolio of related assets. Poxel announced completion of the Phase 1 studies and plans to initiate a Phase 2 clinical trial in biopsy-proven NASH patients in Q2 2020 via a 505(b)(2) regulatory pathway."
+    "Since 2010, the team has pioneered deuterium-enabled chiral switching (DECS) of well-known, racemic drugs and drug candidates, including Revlimid® (lenalidomide), Actos® (pioglitazone), Wellbutrin® (bupropion), and avadomide. Validation of this approach has been demonstrated by asset sales to Celgene in 2012 and Poxel SA in 2018.",
+    "Deuteria Pharmaceuticals, Inc. (Deuteria) was the first company founded by the team in December 2010. One of Deuteria’s earliest issued patents, U.S. #8,288,414, has claims covering deuterated S-lenalidomide and disclosure of in vitro studies showing stabilization and differentiation of the S- and R-stereoisomers. In December 2012, Deuteria was acquired by and became a subsidiary of Celgene.",
+    "DeuteRx, LLC was founded in 2012 with several assets from Deuteria that were not acquired by Celgene. In 2015, DeuteRx's lead program was DRX-065, deuterated R-pioglitazone for the treatment of and nonalcoholic steatohepatitis (NASH) and adrenomyeloneuropathy (AMN). In preclinical studies, DeuteRx discovered that the PPARγ activity and related side effects are due to S-pioglitazone while the predicted efficacy for AMN and NASH are due to R-pioglitazone. In 2016, DeuteRx advanced DRX-065 into Phase 1 human clinical trials. In 2018, Poxel acquired PXL065 (formerly DRX-065) and a portfolio of related assets. Poxel announced the initiation of a Phase 2 clinical trial in biopsy-proven NASH patients in Q3 2020 via a 505(b)(2) regulatory pathway."
   ],
   "team": [
     {
@@ -23,19 +26,16 @@
       "title": "Board Chair, President, & CEO",
       "linkedIn": "https://www.linkedin.com/in/sheila-dewitt-phd-465465/",
       "bio": [
-        "Dr. Sheila DeWitt is a Life Sciences Executive & Serial Entrepreneur with 30 years of experience in pharmaceutical and biotechnology companies. She is currently the Chair, President, & CEO of DeuteRx, a biopharmaceutical company located in the Boston area.  During the past eight years, she has founded and led two successful deuterated drug companies, culminating in two exits to publicly traded companies, Celgene (Dec 2012) and Poxel SA (Aug 2018). During this time, she raised $5 Mil in angel funding and delivered returns to investors of up to 20x based on upfront payments and up to >100x based on future success-based milestones (not including royalties).",
-        "Sheila has led the start-up or turnaround of 8 biotechnology companies or business units, led transactions totaling >$2 Bil in value, led the shutdown and sale of assets of a publicly traded company, and managed global R&D organizations with annual budgets of up to $30Mil. She is also internationally recognized as a scientist for her pioneering contributions to automated and high-throughput chemistry. She earned her B.A. in Chemistry from Cornell University in 1982 and Ph.D. in Synthetic Organic Chemistry from Duke University in 1986.",
-        "Selected honors include “Women to Watch” by Mass High Tech, “Buzz of BIO” Pipelines of Promise for Deuteria Pharmaceuticals, “The Perfect Pitch” at BioPharma America, “American Chemical Society (ACS) Famous Organic Chemist”, “Pioneer in Laboratory Robotics” from International Symposium on Lab Automation and Robotics (ISLAR), and Michigan Leading Edge Technologies Award. Sheila contributes her time and energy to several professional and non-profit activities including: Board of Directors, Yao - The Bard, LLC; Board of Trustees, The Derryfield School (Manchester, NH); and Board of Advisors, Gordon-Conwell Theological Seminary. She is also a member of the Cornell Alumni Admissions Ambassador Network (CAAAN), New England Women in Science Executives (NEWISE), Springboard Enterprises (an international forum for women-led companies), and the American Chemical Society. In 2013, her family founded the Hobbs-DeWitt Science and Engineering Scholarship program which has awarded >$30,000 to graduating seniors from Royalton-Hartland (Roy-Hart) Central High School in Middleport, NY who are pursuing a 4-year college degree. Sheila graduated from Roy-Hart as a first-generation high school graduate and Valedictorian in 1978."
+        "Dr. Sheila DeWitt is an executive and serial entrepreneur with 30 years of experience in pharmaceutical and biotechnology companies. She earned her B.A. in Chemistry & Chemical Biology from Cornell University in 1982 and Ph.D. in Synthetic Organic Chemistry from Duke University in 1986. She is internationally recognized for pioneering automated and high-throughput chemistry during her time at Parke-Davis and has received numerous awards in recognition for her innovation and entrepreneurship. She has authored >60 publications and abstracts, created and delivered >20 short courses or symposia, and is an inventor on >100 patents and/or patent applications. Dr. DeWitt has founded and/or led the start-up or turnaround of 9 biotechnology companies or business units, orchestrated $2+ billion in transactions, engineered the shutdown and asset sales of a publicly traded company, and managed global R&D organizations with up to $30 mil annual budgets. Since 2010, she has served as the Founder, Chair, President, and CEO of two deuterated drug companies. During this time, she led  the development and sale of several product assets including the sale of one company Celgene (Dec 2012) and DRX-065 and a portfolio of related assets to Poxel SA (Aug 2018). During this time, she raised >$8 million in angel and non-dilutive funding and delivered up to 20x returns to investors based on upfront payments and >100x based on future success-based milestones (not including royalties)."
       ]
     },
     {
-      "img": "deuterx-vincent-jacques.png",
+      "img": "deuterx-vincent-jacques-v2.png",
       "name": "Vincent Jacques, PhD",
       "title": "SVP of Research & Early Development",
       "linkedIn": "https://www.linkedin.com/in/vincent-jacques-88b8181/",
       "bio": [
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.",
-        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
       ]
     },
     {
@@ -44,8 +44,7 @@
       "title": "Former Board, Scientific Advisor",
       "linkedIn": "https://www.linkedin.com/in/awczarnik/",
       "bio": [
-        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur."
+        "Dr. Anthony (Tony) W. Czarnik is a chemist and inventor best known for pioneering studies in the field of fluorescent chemosensors and co-founding Illumina, Inc. (1998), where he served as CSO until 2000. Dr. Czarnik earned his B.S. in Biochemistry at the University of Wisconsin in 1977, followed by his M.S. in Biochemistry and Ph.D in Chemistry at the University of Illinois at Urbana–Champaign in 1980 and 1981, respectively. Czarnik was also the founding editor of ACS Combinatorial Science (formerly Journal of Combinatorial Chemistry), an academic journal published by the American Chemical Society. He is known internationally for his scientific contributions, which include the application of deuterium in pharmaceuticals, beverages, and agrochemicals, combinatorial chemistry-facilitated drug discovery, RNA-targeted small molecule therapies, and small molecule detection using fluorescent chemosensors. At Parke-Davis (now Pfizer), Czarnik directed novel research in combinatorial chemistry and led the first successful discovery of small molecule drugs that work via RNA binding. In 2003, Czarnik proposed a practical method for monitoring glucose levels in diabetic patients using chemosensors; his work contributed to the first FDA-approved continuous glucose monitor. Czarnik’s recent roles include CSO at Sensors for Medicine and Science Inc. (2001-2003) and co-founder of several biotechnology companies, including Deuteria Pharmaceuticals, Inc., DeuteRx, LLC, and Protia, LLC. He currently serves as an adjunct visiting professor at the University of Nevada, Reno."
       ]
     },
     {
@@ -54,9 +53,7 @@
       "title": "Board, Strategy and R&D Advisor",
       "linkedIn": "https://www.linkedin.com/in/lex-van-der-ploeg-9b800bb/",
       "bio": [
-        "Since 2019, Lex H.T. Van der Ploeg is Chair, President, and CEO for Yao - The Bard, LLC a digital therapeutics biotech company, located in the Boston/Cambridge area, focused on the treatment of diverse learning disabilities and other neurologic indications. Lex also functions as Managing Director for VDP, LLC, an independent consulting agency focused on guiding Research and Development for the Biotechnology and Pharmaceutical Industries and private investors. At VDP, LLC, Lex focuses on supporting R&D initiatives from a strategic and tactical perspective, as an integrated member of management and R&D teams. In this capacity, Lex functions as a member of the Board of Directors for Retrotope Inc., as an advisor to and DeuteRx, LLC, a member of the SAB for Excellentia Global partners, an Advisor to Inkef Capital, NonPareil biotechnologies and Rhythm Pharmaceuticals.",
-        "Lex’s expertise includes development of Diagnostics and Therapeutics including cancer, neurodegenerative disorders, metabolic disorders and infectious diseases. Prior to starting Yao - The Bard, LLC, Lex was CSO at Rhythm Pharmaceuticals (2011-2019) where he focused on development of therapeutics for diabetic gastroparesis and obesity. Rhythm became a NASDAQ listed public company in 2017. Lex functioned as an adviser to Deuteria (2011-2012), which was acquired by Celgene in 2012. Lex was the Sr. Vice President of Integrative Medicine and Translational Science at Abraxis Bioscience (2009-2011), which was acquired by Celgene in 2010. Previously, Dr. Van der Ploeg held the position of, Vice President, Basic Research, and site head at Merck Research Laboratories Boston (2003-2008) opening the laboratory, and focusing on oncology and neurodegenerative disease in Aug-2004. Prior to starting Merck Research Laboratories Boston in December 2003, Dr. Van der Ploeg held diverse functions at Merck Research Laboratories including site head MRL San Diego (2002-2003) and Head Obesity research for Merck Rahway and Banyu, Japan (1996-2003). At Merck (1991-2008), Lex held leadership roles in obesity and metabolism, oncology, neurodegenerative disease research and diagnostics. At Merck, Lex was responsible for the discovery of the growth-hormone secretagogue (ghrelin) receptor and contributed to the discovery of the target for ivermectin and the development of vorinostat. During this time, Lex led the development of numerous drug-development programs.",
-        "Dr. Van der Ploeg received his M.S. degree (Summa Cum Laude) in Biochemistry in 1980 from the University of Amsterdam and his PhD in Biochemistry/Enzymology/Genetics in 1984 from the University of Amsterdam/Netherlands Cancer Research Center. Following receipt of his PhD, Dr Van der Ploeg joined the faculty of the Dept. of Genetics and Development of Columbia University, as an Assistant Professor and received tenure at Columbia University in 1987. At Columbia, Lex contributed broadly to our understanding of the genetics of parasitic protozoa and our understanding of the genetics of host-parasite interactions. Dr. Van der Ploeg held an adjunct faculty position at the Dept. of Genetics and Development of Columbia University from 1992 through 2009. Dr. Van der Ploeg received numerous awards and grants for his research and has broadly published on his research in peer-reviewed journals. He is an inventor on over 50 patents and patent applications."
+        "Dr. Lex Van der Ploeg is a successful entrepreneur with expertise in diagnostic and therapeutic technologies for cancer, neurodegenerative disorders, metabolic disorders, and infectious diseases. Lex earned his M.S. in Biochemistry summa cum laude in 1980 from the University of Amsterdam and his PhD in Biochemistry/Enzymology/Genetics in 1984 from the University of Amsterdam/Netherlands Cancer Research Center.  Lex functioned as a tenured faculty member at Columbia University from 1984-1991 and as an adjunct faculty member through 2009. Over the past decade, Lex was instrumental in the maturation of 5 biotech companies, including the development of Setmelanotide at Rhythm (IPO in 2017) and Relamorelin at Motus, which was sold to Allergan in 2016. Lex was the SVP of Integrative Medicine and Translational Science at Abraxis Bioscience (2009-2011), which was acquired by Celgene in 2010. Lex supported the sale of Deuteria Pharmaceuticals to Celgene (2012) and the development of DRX-065 at DeuteRx, which was sold to Poxel in 2018. Since 2012, Lex has been a member of the board of directors for Retrotope, developing therapeutics for neurodegenerative disorders. Prior to these activities, Lex started and grew the Merck Boston Research laboratories to a group of over 300 scientists focused on cancer and neuroscience (2004-2008). At Merck (1991-2008), Lex was responsible for the discovery of the growth-hormone secretagogue (ghrelin) receptor and contributed to the discovery of the target for ivermectin and the development of vorinostat. During this time, Lex led the development of numerous drug-development programs, including building of Merck’s Obesity program, collaboratively with Banyu research laboratories in Japan between 1996 and 2003, restructuring the Merck San Diego site (2003). Since 2019, Lex has served as Founder, Chair, President, and CEO for Yao The Bard, LLC (dba RIFFIT, Boston/Cambridge), a digital therapeutics biotech company focused on the treatment of diverse learning disabilities and other neurologic indications. Yao is developing RIFFIT, a novel software that applies digital therapeutics to enable learning."
       ]
     },
     {
@@ -65,22 +62,20 @@
       "title": "Board, Business Advisor",
       "linkedIn": "https://www.linkedin.com/in/mike-webb-b347181/",
       "bio": [
-        "Mike has more than 25 years of experience in healthcare and life sciences. He specializes in early-stage companies focused on targeted therapeutics and molecular diagnostics.  Currently, he is the President and CEO of CXL Ophthalmics, a Phase 2 company developing a novel drug/device combination for the treatment of keratoconus.",
-        "He has been a founder and CEO of biotechnology companies, taking them from seed round funding through venture financing and NASDAQ IPO. He was the President and CEO of Tyrogenex, a venture-backed company developing an oral treatment for wAMD. Mike was the President and CEO of Allegro Diagnostics. Allegro was a venture-backed company acquired by Veracyte that developed a novel molecular diagnostic for lung cancer based-on technology from Boston University Medical Center. He was the founder and CEO of Anchor Therapeutics, a venture-backed company focusing on developing a new biology platform for drug discovery licensed from Tufts Medical Center. Prior to founding Anchor, he was the CEO of EPIX Pharmaceuticals from 1994 through 2005. During this period, EPIX grew from a venture-backed startup to be the world leader in discovery and development of pharmaceuticals for diagnostic imaging with MRl. At EPIX, he completed numerous financings and corporate partnerships including an IPO on NASDAQ. Mr. Webb joined EPIX from CIBA, where he was Senior Vice President, Worldwide Marketing and Strategic Planning of CIBA-Corning Diagnostics, responsible for global marketing, program management, corporate planning, business development and licensing. Prior to CIBA, Mr. Webb was a senior consultant at Booz, Allen & Hamilton, specializing in healthcare and life sciences.",
-        "Mr. Webb holds Bachelors degrees in Biochemistry and Economics from the University of Kansas (Summa Cum Laude) and an MA in International Relations from Sussex University in the UK, completing his thesis on \"Pharmaceuticals Policy and the World Health Organization.\" In addition, Mr. Webb holds an MBA degree with honors from the Kellogg Graduate School of Management at Northwestern University with a concentration in healthcare management. He is a past chairman of the Massachusetts Biotechnology Council and currently serves on the boards of DeuteRx and Veritas Genetics. He also serves on the advisory boards of the Healthcare Advisory Council at Kellogg and the Institute for Advancing Medical Innovation at the University of Kansas where he is chairman."
+        "Mr. Michael (Mike) Webb has over 25 years of experience as a founder and CEO of biotechnology companies, advancing them from seed round funding through venture financing and NASDAQ IPO. Mike earned his Bachelor’s degrees in Biochemistry and Economics from the University of Kansas summa cum laude in 1980, his MA in International Relations from Sussex University in 1982, and his MBA with a concentration in healthcare management from the Kellogg Graduate School of Management at Northwestern University in 1984. Currently, he is President and CEO of CXL Ophthalmics, a Phase 3 company developing a novel drug/device combination for the treatment of keratoconus. Previously, he served as the President and CEO of Tyrogenex, a venture-backed company developing an oral treatment for wet age-related macular degeneration (wAMD). As President and CEO of Allegro Diagnostics from [year to year], Mike was instrumental in the development of a novel molecular diagnostic for lung cancer and Allegro’s later acquisition by Veracyte. In 2006, Mr. Webb founded Anchor Therapeutics, a venture-backed company focused on developing a new biology platform for drug discovery, where he also served as CEO. Prior to founding Anchor, Mike led EPIX Pharmaceuticals as CEO (1994-2005) from a venture-backed startup to a publicly traded NASDAQ company, a  world leader in the discovery and development of diagnostic imaging agents for MRl, including the first U.S. approved magnetic resonance angiography (MRA) agent, Vasovist®. Before his time at EPIX, Mike was a SVP at CIBA and Senior Consultant at Booz, Allen & Hamilton, specializing in healthcare and life sciences."
       ]
     }
   ],
   "advisors": [
     {
-      "name": "Timothy Barberich",
+      "name": "Tim Barberich",
       "title": "Business Advisor",
       "linkedIn": "https://www.linkedin.com/in/tim-barberich-82a81520"
     },
     {
-      "name": "Christopher Denn",
-      "title": "Outside Counsel, Goodwin",
-      "linkedIn": "https://www.linkedin.com/in/christopher-denn-5562561"
+      "name": "Laurie Burlingame, JD",
+      "title": "Legal Counsel, Goodwin",
+      "linkedIn": "https://www.goodwinlaw.com/professionals/b/burlingame-laurie"
     },
     {
       "name": "Kim Drapkin, CPA",
@@ -88,7 +83,7 @@
       "linkedIn": "https://www.linkedin.com/in/kim-drapkin-8b36b14/"
     },
     {
-      "name": "Robert Johnston",
+      "name": "Robert (Bob) Johnston, MBA",
       "title": "Business Advisor",
       "linkedIn": "http://www.jaivc.com/#team-section"
     },
@@ -98,6 +93,11 @@
       "linkedIn": "https://www.linkedin.com/in/bruce-maryanoff-b27bb85/"
     },
     {
+      "name": "Catherine (Cathy) McCarty, JD",
+      "title": "IP Counsel, Goodwin",
+      "linkedIn": "https://www.goodwinlaw.com/professionals/m/mccarty-catherine"
+    },
+    {
       "name": "David Simcox, PhD",
       "title": "R&D Advisor",
       "linkedIn": "https://www.linkedin.com/in/p-david-simcox-phd-a310183/"
@@ -105,9 +105,24 @@
   ],
   "KOLs": [
     {
-      "name": "Kenneth Cusi",
+      "name": "Kenneth Cusi, MD, FACP, FACE",
       "title": "NASH",
       "linkedIn": "https://ufhealth.org/kenneth-cusi"
+    },
+    {
+      "name": "Ajit Divakaruni, PhD",
+      "title": "Mitochondrial",
+      "linkedIn": "http://faculty.pharmacology.ucla.edu/institution/personnel?personnel_id=8498294"
+    },
+    {
+      "name": "Florian Eichler, MD",
+      "title": "ALD/AMN",
+      "linkedIn": "https://www.massgeneral.org/children/doctors/17851/florian-eichler"
+    },
+    {
+      "name": "Maurizio Fava, MD",
+      "title": "CNS Disorders",
+      "linkedIn": "https://www.massgeneral.org/doctors/16784/maurizio-fava"
     },
     {
       "name": "Scott Friedman, MD",
@@ -115,19 +130,9 @@
       "linkedIn": "https://icahn.mssm.edu/profiles/scott-l-friedman"
     },
     {
-      "name": "Florian Eichler, MD",
-      "title": "ALD/AMN",
-      "linkedIn": "https://www.massgeneral.org/neurology/researcher_profiles/eichler_florian.aspx"
-    },
-    {
       "name": "Anne Murphy, PhD",
       "title": "Mitochondrial",
       "linkedIn": "https://profiles.ucsd.edu/anne.murphy"
-    },
-    {
-      "name": "Ajit Divakaruni, PhD",
-      "title": "Mitochondrial",
-      "linkedIn": "http://faculty.pharmacology.ucla.edu/institution/personnel?personnel_id=8498294"
     }
   ],
   "consultants": [
@@ -137,19 +142,29 @@
       "linkedIn": "https://www.linkedin.com/in/gilbert-block-8201a28/"
     },
     {
-      "name": "Darryl Patrick, DVM, PhD",
-      "title": "Nonclinical",
-      "linkedIn": "http://cyteir.com/company/darryl-patrick"
-    },
-    {
       "name": "John Koleng, PhD, RPh",
       "title": "CMC",
       "linkedIn": "https://www.linkedin.com/in/koleng/"
     },
     {
+      "name": "William (Bill) McVicar, PhD",
+      "title": "R&D",
+      "linkedIn": "https://www.linkedin.com/in/william-bill-mcvicar-phd-aaa01427/"
+    },
+    {
+      "name": "Darryl Patrick, DVM, PhD",
+      "title": "Nonclinical",
+      "linkedIn": "http://cyteir.com/company/darryl-patrick"
+    },
+    {
       "name": "Robert Silverman, MD, PhD",
       "title": "Regulatory",
       "linkedIn": "https://www.linkedin.com/in/robert-silverman-0554b07/"
+    },
+    {
+      "name": "Mary Wallace",
+      "title": "Marketing",
+      "linkedIn": "https://www.linkedin.com/in/marydwallace"
     }
   ]
 }

@@ -7,7 +7,7 @@ import content from '../content.json';
 const Home = ({ items }) => (
   <>
     <img
-      src={`${config.publicCloudfrontURL}/deuterx-water-splash.jpg`}
+      src={`${config.publicCloudfrontURL}/deuterx-water-splash-v2.jpg`}
       alt={config.businessName}
       className="fixed-image"
     />

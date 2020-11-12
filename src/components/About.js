@@ -22,24 +22,38 @@ const About = () => (
     </div>
     <div className="our-approach-section-2">
       <div className="our-approach-section-2-content">
-        {content.approach.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+        {content.approach.map((paragraph) => (
+          <p key={paragraph} dangerouslySetInnerHTML={{ __html: paragraph }} />
+        ))}
         <img
-          src={`${config.publicCloudfrontURL}/deuterx-pioglitazone.png`}
+          src={`${config.publicCloudfrontURL}/deuterx-buproprion.png`}
           alt="Pioglitazone"
         />
+      </div>
+    </div>
+    <div className="our-approach-section-2b">
+      <div className="our-approach-section-2b-content">
+        <h2>Innovation</h2>
+        {content.innovation.map((paragraph) => (
+          <p key={paragraph} dangerouslySetInnerHTML={{ __html: paragraph }} />
+        ))}
       </div>
     </div>
     <div className="our-approach-section-3">
       <div className="our-approach-section-3-content">
         <h2>Speed to Market</h2>
-        {content.speedToMarket.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+        {content.speedToMarket.map((paragraph) => (
+          <p key={paragraph} dangerouslySetInnerHTML={{ __html: paragraph }} />
+        ))}
       </div>
       <i className="fas fa-vial background-icon" />
     </div>
     <div className="our-approach-section-4">
       <div className="our-approach-section-4-content">
         <h2>Validation</h2>
-        {content.validation.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+        {content.validation.map((paragraph) => (
+          <p key={paragraph} dangerouslySetInnerHTML={{ __html: paragraph }} />
+        ))}
         <div className="partnerships-link">
           <NavLink to="/partnerships">
             View our partnerships

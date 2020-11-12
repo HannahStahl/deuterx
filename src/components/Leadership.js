@@ -7,7 +7,7 @@ import TeamMember from './TeamMember';
 const Leadership = () => (
   <div className="leadership">
     <img
-      src={`${config.publicCloudfrontURL}/deuterx-deuterium.jpg`}
+      src={`${config.publicCloudfrontURL}/deuterx-deuterium-hands.jpg`}
       alt={config.businessName}
       className="fixed-image"
     />

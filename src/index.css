@@ -195,15 +195,18 @@ a.no-fuschia {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.our-approach-section-2, .our-approach-section-3, .our-approach-section-4 {
+.our-approach-section-2, .our-approach-section-2b, .our-approach-section-3, .our-approach-section-4 {
   padding: 60px;
   background-color: white;
   display: flex;
   justify-content: center;
 }
 
-.our-approach-section-3 {
+.our-approach-section-2b, .our-approach-section-4 {
   background-color: var(--light-blue);
+}
+
+.our-approach-section-3 {
   position: relative;
 }
 
@@ -220,7 +223,7 @@ a.no-fuschia {
   opacity: 0.7;
 }
 
-.our-approach-section-2-content, .our-approach-section-3-content, .our-approach-section-4-content {
+.our-approach-section-2-content, .our-approach-section-2b-content, .our-approach-section-3-content, .our-approach-section-4-content {
   max-width: 850px;
 }
 
@@ -492,7 +495,7 @@ a.no-fuschia {
     padding: 30px 20px;
   }
 
-  .partnerships-section-2, .partnerships-section-3, .news-section-2, .news-section-3, .our-approach-section-2, .our-approach-section-3, .our-approach-section-4, .home-section-2, .home-section-3 {
+  .partnerships-section-2, .partnerships-section-3, .news-section-2, .news-section-3, .our-approach-section-2, .our-approach-section-2b, .our-approach-section-3, .our-approach-section-4, .home-section-2, .home-section-3 {
     padding: 30px;
   }
 
