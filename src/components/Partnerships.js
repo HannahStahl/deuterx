@@ -48,9 +48,9 @@ const Partnerships = () => {
     <div className="partnerships">
       <div className="partnerships-section-1">
         <img
-          src={`${config.publicCloudfrontURL}/deuterx-pill-in-water-v2.jpeg`}
+          src={`${config.publicCloudfrontURL}/deuterx-handshake-cropped.jpg`}
           alt={config.businessName}
-          className="fixed-image"
+          className="fixed-image partnerships-image"
         />
         <Fade><div className="image-overlay" /></Fade>
         <Fade>

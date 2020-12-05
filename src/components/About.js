@@ -56,7 +56,7 @@ const About = () => (
         ))}
         <div className="partnerships-link">
           <NavLink to="/partnerships">
-            View our partnerships
+            View partnership opportunities
             <i className="fas fa-angle-right" />
           </NavLink>
         </div>

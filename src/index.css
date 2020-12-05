@@ -541,6 +541,12 @@ a.no-fuschia {
   }
 }
 
+@media all and (max-width: 800px) and (min-height: 900px) {
+  .partnerships-image {
+    object-position: 50% -100px;
+  }
+}
+
 @media all and (max-width: 700px) {
   .background-icon {
     bottom: -150px;

@@ -16,7 +16,9 @@ export default ({ member, index }) => {
       <div className="team-member-details">
         <a href={member.linkedIn} className="no-fuschia"><h3>{member.name}</h3></a>
         <p className="team-member-title">{member.title}</p>
-        <div className={`team-member-bio${expanded ? '' : ' collapsed'}`}>{member.bio.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
+        <div className={`team-member-bio${expanded ? '' : ' collapsed'}`}>
+          {member.bio.map((paragraph) => <p key={paragraph} dangerouslySetInnerHTML={{ __html: paragraph }} />)}
+        </div>
         <p onClick={() => setExpanded(!expanded)} className="read-more link">
           {`Read ${expanded ? 'less' : 'more'}`}
           <i className={`fas fa-angle-${expanded ? 'up' : 'down'}`} />
