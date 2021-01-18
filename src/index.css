@@ -102,15 +102,7 @@ h3 {
   padding: 60px;
 }
 
-.our-approach-section-1 {
-  justify-content: flex-end;
-}
-
-.partnerships-section-1 {
-  justify-content: flex-start;
-}
-
-.home-section-1-content, .leadership-section-1-content, .news-section-1-content {
+.home-section-1-content, .leadership-section-1-content, .news-section-1-content, .our-approach-section-1-content, .partnerships-section-1-content {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 50px 60px;
 }
@@ -190,9 +182,7 @@ a.no-fuschia {
 }
 
 .our-approach-section-1-content {
-  padding: 60px;
   max-width: 660px;
-  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .our-approach-section-2, .our-approach-section-2b, .our-approach-section-3, .our-approach-section-4 {
@@ -354,14 +344,8 @@ a.no-fuschia {
   justify-content: center;
 }
 
-.partnerships-section-1 {
-  padding: 60px;
-}
-
 .partnerships-section-1-content {
-  padding: 60px;
   max-width: 750px;
-  background-color: transparent;
 }
 
 .partnerships-section-2 {
