@@ -23,6 +23,10 @@ const Routes = ({ items }) => {
     { path: '/partnerships', Component: Partnerships },
   ];
 
+  if (!routes.map(({ path }) => path).includes(window.location.pathname)) {
+    window.location.pathname = '/';
+  }
+
   return (
     <>
       {routes.map(({ path, Component, props }) => (
