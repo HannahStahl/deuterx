@@ -72,13 +72,6 @@ const Partnerships = () => {
                   deuterated S-bupropion
                 </p>
               </li>
-              <li>
-                <p>
-                  <b>DRX-075</b>
-                  ,
-                  deuterated R-donepezil
-                </p>
-              </li>
               <li><p>Undisclosed discovery stage assets</p></li>
             </ul>
           </div>
