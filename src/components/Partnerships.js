@@ -78,29 +78,25 @@ const Partnerships = () => {
             </ul>
           </div>
           <div className="partnership-card">
-            <h3>Oncology</h3>
+            <h3>Sold/Partnered Assets</h3>
             <ul>
               <li>
                 <p>
-                  <b>DRX-164</b>
+                  <b>SP-3164</b>
                   ,
                   deuterated S-avadomide
+                  <br />
+                  Acquired by Salarius (Jan 2022)
                 </p>
               </li>
-              <li><p>Undisclosed discovery stage assets</p></li>
-            </ul>
-          </div>
-          <div className="partnership-card">
-            <h3>Sold/Partnered Assets</h3>
-            <ul>
               <li>
                 <p>
                   <b>PXL065</b>
                   ,
                   deuterated R-pioglitazone
-                  {' '}
+                  <br />
                   <a href="https://www.businesswire.com/news/home/20180829005794/en/Poxel-Expands-Metabolic-Pipeline-Strategic-Acquisition-Agreement">
-                    acquired by Poxel SA
+                    Acquired by Poxel SA
                   </a>
                   {' '}
                   (Aug 2018)
@@ -111,9 +107,9 @@ const Partnerships = () => {
                   <b>DP-053</b>
                   ,
                   deuterated S-lenalidomide
-                  {' '}
+                  <br />
                   <a href="https://www.sec.gov/Archives/edgar/data/816284/000104746913001186/a2212863z10-k.htm">
-                    acquired by Celgene
+                    Acquired by Celgene
                   </a>
                   {' '}
                   (Dec 2012)
