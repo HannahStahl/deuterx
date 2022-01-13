@@ -67,9 +67,11 @@ const Partnerships = () => {
             <ul>
               <li>
                 <p>
-                  <b>DRX-184</b>
+                  <b>NTY-184</b>
                   ,
                   deuterated S-bupropion
+                  <br />
+                  Neuromity Therapeutics created (Nov 2021)
                 </p>
               </li>
               <li><p>Undisclosed discovery stage assets</p></li>
