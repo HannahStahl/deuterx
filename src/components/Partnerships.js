@@ -71,7 +71,11 @@ const Partnerships = () => {
                   ,
                   deuterated S-bupropion
                   <br />
-                  Neuromity Therapeutics created (Nov 2021)
+                  <a href="https://www.neuromity.com/">
+                    Neuromity Therapeutics created
+                  </a>
+                  {' '}
+                  (Nov 2021)
                 </p>
               </li>
               <li><p>Undisclosed discovery stage assets</p></li>
