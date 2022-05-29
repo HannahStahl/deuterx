@@ -39,7 +39,6 @@ const Routes = ({ articles, publications }) => {
               unmountOnExit
             >
               <div className="page">
-                {/* eslint-disable-next-line react/jsx-props-no-spreading */}
                 <Component {...props} match={match} />
               </div>
             </CSSTransition>
