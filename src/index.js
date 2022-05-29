@@ -14,11 +14,11 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import config from './config';
 
-const Routes = ({ items }) => {
+const Routes = ({ articles, publications }) => {
   const routes = [
-    { path: '/', Component: Home, props: { items } },
+    { path: '/', Component: Home, props: { articles, publications } },
     { path: '/about', Component: About },
-    { path: '/news', Component: News, props: { items } },
+    { path: '/news', Component: News, props: { articles, publications } },
     { path: '/leadership', Component: Leadership },
     { path: '/partnerships', Component: Partnerships },
   ];
@@ -51,25 +51,45 @@ const Routes = ({ items }) => {
 };
 
 const App = withRouter((props) => {
-  const [items, setItems] = useState([]);
+  const [articles, setArticles] = useState([]);
+  const [publications, setPublications] = useState([]);
 
   useEffect(() => {
-    Promise.all([
-      fetch(`${config.apiURL}/publishedItems/${config.userID}`).then((res) => res.json()),
-      fetch(`${config.apiURL}/itemsToPhotos/${config.userID}`).then((res) => res.json()),
-      fetch(`${config.apiURL}/photos/${config.userID}`).then((res) => res.json()),
-    ]).then((results) => {
-      const [itemsList, itemsToPhotos, photos] = results;
-      itemsList.forEach((item, index) => {
-        const itemPhotoIds = itemsToPhotos
-          .filter((row) => row.itemId === item.itemId)
-          .map((row) => row.photoId);
-        itemsList[index].itemPhotos = photos.filter(
-          (photo) => itemPhotoIds.includes(photo.photoId),
-        );
+    const SORT_ORDER = 'sort: { _createdAt: DESC }';
+    const NEWS_ITEM_FIELDS = `
+      _id
+      _createdAt
+      title
+      subtitle
+      description
+      link
+      pdf {
+        asset {
+          url
+        }
+      }
+    `;
+    fetch(config.sanityURL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        query: `
+          query {
+            allArticle(${SORT_ORDER}) {
+              ${NEWS_ITEM_FIELDS}
+            }
+            allPublication(${SORT_ORDER}) {
+              ${NEWS_ITEM_FIELDS}
+            }
+          }
+        `,
+      }),
+    })
+      .then((res) => res.json())
+      .then(({ data: { allArticle, allPublication } }) => {
+        setArticles(allArticle);
+        setPublications(allPublication);
       });
-      setItems(itemsList);
-    });
   }, []);
 
   useEffect(() => {
@@ -80,7 +100,7 @@ const App = withRouter((props) => {
     <>
       <NavBar />
       <div className="page-content">
-        <Routes items={items} />
+        <Routes articles={articles} publications={publications} />
       </div>
       <Footer />
     </>

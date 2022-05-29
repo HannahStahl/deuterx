@@ -1,77 +1,41 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
 import config from '../config';
+import NewsItem from './NewsItem';
 
-const News = ({ items }) => {
-  const sortedItems = items.sort((a, b) => b.datePublished - a.datePublished);
-  const publications = sortedItems.filter(
-    (item) => item.cmsPageConfigId === config.publicationItemTypeId,
-  );
-  const articles = sortedItems.filter(
-    (item) => item.cmsPageConfigId === config.articleItemTypeId,
-  );
-  return (
-    <div className="news">
-      <img
-        src={`${config.publicCloudfrontURL}/deuterx-waves.jpg`}
-        alt={config.businessName}
-        className="fixed-image"
-      />
-      <Fade><div className="image-overlay" /></Fade>
-      <Fade>
-        <div className="news-section-1">
-          <div className="news-section-1-content">
-            <h1>News and Events</h1>
-            <h3>Making Waves with Heavy Water</h3>
-          </div>
-        </div>
-      </Fade>
-      <div className="news-section-2">
-        <h1>Publications & Posters</h1>
-        <div className="news-cards">
-          {publications.map((item) => (
-            <div
-              key={item.itemId}
-              className="news-card"
-              onClick={() => {
-                window.location.href = item.itemPdfLink || `${config.cloudfrontURL}/${item.itemPdf}`;
-              }}
-            >
-              <h3>{item.itemName}</h3>
-              {item.itemSubtitle && item.itemSubtitle.length > 0 && (
-                <p>{item.itemSubtitle}</p>
-              )}
-              {item.itemSourceDate && item.itemSourceDate.length > 0 && (
-                <p><i>{item.itemSourceDate}</i></p>
-              )}
-            </div>
-          ))}
+const News = ({ articles, publications }) => (
+  <div className="news">
+    <img
+      src={`${config.publicCloudfrontURL}/deuterx-waves.jpg`}
+      alt={config.businessName}
+      className="fixed-image"
+    />
+    <Fade><div className="image-overlay" /></Fade>
+    <Fade>
+      <div className="news-section-1">
+        <div className="news-section-1-content">
+          <h1>News and Events</h1>
+          <h3>Making Waves with Heavy Water</h3>
         </div>
       </div>
-      <div className="news-section-3">
-        <h1>News & In the Media</h1>
-        <div className="news-cards">
-          {articles.map((item) => (
-            <div
-              key={item.itemId}
-              className="news-card"
-              onClick={() => {
-                window.location.href = item.itemPdfLink || `${config.cloudfrontURL}/${item.itemPdf}`;
-              }}
-            >
-              <h3>{item.itemName}</h3>
-              {item.itemSubtitle && item.itemSubtitle.length > 0 && (
-                <p>{item.itemSubtitle}</p>
-              )}
-              {item.itemSourceDate && item.itemSourceDate.length > 0 && (
-                <p><i>{item.itemSourceDate}</i></p>
-              )}
-            </div>
-          ))}
-        </div>
+    </Fade>
+    <div className="news-section-2">
+      <h1>Publications & Posters</h1>
+      <div className="news-cards">
+        {publications.map((publication) => (
+          <NewsItem key={publication._id} {...publication} />
+        ))}
       </div>
     </div>
-  );
-};
+    <div className="news-section-3">
+      <h1>News & In the Media</h1>
+      <div className="news-cards">
+        {articles.map((article) => (
+          <NewsItem key={article._id} {...article} />
+        ))}
+      </div>
+    </div>
+  </div>
+);
 
 export default News;

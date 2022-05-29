@@ -3,8 +3,9 @@ import { NavLink } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 import config from '../config';
 import content from '../content.json';
+import NewsItem from './NewsItem';
 
-const Home = ({ items }) => (
+const Home = ({ articles, publications }) => (
   <>
     <img
       src={`${config.publicCloudfrontURL}/deuterx-water-splash-v2.jpg`}
@@ -32,23 +33,10 @@ const Home = ({ items }) => (
     </div>
     <div className="home-section-3">
       <div className="news-cards">
-        {items.sort((a, b) => b.datePublished - a.datePublished).slice(0, 3).map((item) => (
-          <div
-            key={item.itemId}
-            className="news-card"
-            onClick={() => {
-              window.location.href = item.itemPdfLink || `${config.cloudfrontURL}/${item.itemPdf}`;
-            }}
-          >
-            <h3>{item.itemName}</h3>
-            {item.itemSubtitle && item.itemSubtitle.length > 0 && (
-              <p>{item.itemSubtitle}</p>
-            )}
-            {item.itemSourceDate && item.itemSourceDate.length > 0 && (
-              <p><i>{item.itemSourceDate}</i></p>
-            )}
-          </div>
-        ))}
+        {[...articles, ...publications]
+          .sort((a, b) => b._createdAt - a._createdAt)
+          .slice(0, 3)
+          .map((newsItem) => <NewsItem key={newsItem._id} {...newsItem} />)}
       </div>
       <NavLink to="/news">
         View all news and events
