@@ -23,7 +23,7 @@ const News = ({ articles, publications }) => (
       <h1>Publications & Posters</h1>
       <div className="news-cards">
         {publications.map((publication) => (
-          <NewsItem key={publication._id} {...publication} />
+          <NewsItem key={publication._key} {...publication} />
         ))}
       </div>
     </div>
@@ -31,7 +31,7 @@ const News = ({ articles, publications }) => (
       <h1>News & In the Media</h1>
       <div className="news-cards">
         {articles.map((article) => (
-          <NewsItem key={article._id} {...article} />
+          <NewsItem key={article._key} {...article} />
         ))}
       </div>
     </div>

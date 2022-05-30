@@ -34,9 +34,9 @@ const Home = ({ articles, publications }) => (
     <div className="home-section-3">
       <div className="news-cards">
         {[...articles, ...publications]
-          .sort((a, b) => b._createdAt - a._createdAt)
+          .sort((a, b) => b._createdAt - a._createdAt) // This won't work anymore without _createdAt
           .slice(0, 3)
-          .map((newsItem) => <NewsItem key={newsItem._id} {...newsItem} />)}
+          .map((newsItem) => <NewsItem key={newsItem._key} {...newsItem} />)}
       </div>
       <NavLink to="/news">
         View all news and events

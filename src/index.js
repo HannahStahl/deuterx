@@ -54,10 +54,8 @@ const App = withRouter((props) => {
   const [publications, setPublications] = useState([]);
 
   useEffect(() => {
-    const SORT_ORDER = 'sort: { _createdAt: DESC }';
     const NEWS_ITEM_FIELDS = `
-      _id
-      _createdAt
+      _key
       title
       subtitle
       description
@@ -74,18 +72,22 @@ const App = withRouter((props) => {
       body: JSON.stringify({
         query: `
           query {
-            allArticle(${SORT_ORDER}) {
-              ${NEWS_ITEM_FIELDS}
-            }
-            allPublication(${SORT_ORDER}) {
-              ${NEWS_ITEM_FIELDS}
+            allNews {
+              articles {
+                ${NEWS_ITEM_FIELDS}
+              }
+              publications {
+                ${NEWS_ITEM_FIELDS}
+              }
+
             }
           }
         `,
       }),
     })
       .then((res) => res.json())
-      .then(({ data: { allArticle, allPublication } }) => {
+      .then(({ data: { allNews } }) => {
+        const { articles: allArticle, publications: allPublication } = allNews[0];
         setArticles(allArticle);
         setPublications(allPublication);
       });
