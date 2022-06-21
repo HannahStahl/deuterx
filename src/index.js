@@ -14,11 +14,11 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import config from './config';
 
-const Routes = ({ articles, publications }) => {
+const Routes = ({ content }) => {
   const routes = [
-    { path: '/', Component: Home, props: { articles, publications } },
+    { path: '/', Component: Home, props: { content } },
     { path: '/about', Component: About },
-    { path: '/news', Component: News, props: { articles, publications } },
+    { path: '/news', Component: News, props: { content } },
     { path: '/leadership', Component: Leadership },
     { path: '/partnerships', Component: Partnerships },
   ];
@@ -50,12 +50,11 @@ const Routes = ({ articles, publications }) => {
 };
 
 const App = withRouter((props) => {
-  const [articles, setArticles] = useState([]);
-  const [publications, setPublications] = useState([]);
+  const [content, setContent] = useState({});
 
   useEffect(() => {
     const NEWS_ITEM_FIELDS = `
-      _key
+      _id
       title
       subtitle
       description
@@ -72,25 +71,18 @@ const App = withRouter((props) => {
       body: JSON.stringify({
         query: `
           query {
-            allNews {
-              articles {
-                ${NEWS_ITEM_FIELDS}
-              }
-              publications {
-                ${NEWS_ITEM_FIELDS}
-              }
-
+            allPublication(sort: { _createdAt: DESC }) {
+              ${NEWS_ITEM_FIELDS}
+            }
+            allArticle(sort: { _createdAt: DESC }) {
+              ${NEWS_ITEM_FIELDS}
             }
           }
         `,
       }),
     })
       .then((res) => res.json())
-      .then(({ data: { allNews } }) => {
-        const { articles: allArticle, publications: allPublication } = allNews[0];
-        setArticles(allArticle);
-        setPublications(allPublication);
-      });
+      .then(({ data }) => setContent(data));
   }, []);
 
   useEffect(() => {
@@ -101,7 +93,7 @@ const App = withRouter((props) => {
     <>
       <NavBar />
       <div className="page-content">
-        <Routes articles={articles} publications={publications} />
+        <Routes content={content} />
       </div>
       <Footer />
     </>

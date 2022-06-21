@@ -3,7 +3,7 @@ import { Fade } from 'react-reveal';
 import config from '../config';
 import NewsItem from './NewsItem';
 
-const News = ({ articles, publications }) => (
+const News = ({ content }) => (
   <div className="news">
     <img
       src={`${config.publicCloudfrontURL}/deuterx-waves.jpg`}
@@ -22,16 +22,16 @@ const News = ({ articles, publications }) => (
     <div className="news-section-2">
       <h1>Publications & Posters</h1>
       <div className="news-cards">
-        {publications.map((publication) => (
-          <NewsItem key={publication._key} {...publication} />
+        {(content.allPublication || []).map((publication) => (
+          <NewsItem key={publication._id} {...publication} />
         ))}
       </div>
     </div>
     <div className="news-section-3">
       <h1>News & In the Media</h1>
       <div className="news-cards">
-        {articles.map((article) => (
-          <NewsItem key={article._key} {...article} />
+        {(content.allArticle || []).map((article) => (
+          <NewsItem key={article._id} {...article} />
         ))}
       </div>
     </div>

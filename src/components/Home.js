@@ -2,10 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 import config from '../config';
-import content from '../content.json';
+import oldContent from '../content.json';
 import NewsItem from './NewsItem';
 
-const Home = ({ articles, publications }) => (
+const Home = ({ content }) => (
   <>
     <img
       src={`${config.publicCloudfrontURL}/deuterx-water-splash-v2.jpg`}
@@ -23,8 +23,8 @@ const Home = ({ articles, publications }) => (
     </Fade>
     <div className="home-section-2">
       <div className="home-section-2-content">
-        <h3>{content.homeTagline}</h3>
-        <p>{content.homeIntro}</p>
+        <h3>{oldContent.homeTagline}</h3>
+        <p>{oldContent.homeIntro}</p>
         <NavLink to="/about">
           Learn more
           <i className="fas fa-angle-right" />
@@ -33,10 +33,9 @@ const Home = ({ articles, publications }) => (
     </div>
     <div className="home-section-3">
       <div className="news-cards">
-        {[...articles, ...publications]
-          .sort((a, b) => b._createdAt - a._createdAt) // This won't work anymore without _createdAt
+        {[...(content.allArticle || []), ...(content.allPublication || [])]
           .slice(0, 3)
-          .map((newsItem) => <NewsItem key={newsItem._key} {...newsItem} />)}
+          .map((newsItem) => <NewsItem key={newsItem._id} {...newsItem} />)}
       </div>
       <NavLink to="/news">
         View all news and events
