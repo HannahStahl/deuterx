@@ -71,6 +71,10 @@ const App = withRouter((props) => {
       body: JSON.stringify({
         query: `
           query {
+            allHome {
+              intro
+              summaryRaw
+            }
             allPublication(sort: { _createdAt: DESC }) {
               ${NEWS_ITEM_FIELDS}
             }

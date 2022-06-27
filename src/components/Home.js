@@ -2,10 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 import config from '../config';
-import oldContent from '../content.json';
 import NewsItem from './NewsItem';
+import PortableText from './PortableText';
 
-const Home = ({ content }) => (
+const Home = ({ content }) => (content.allHome ? (
   <>
     <img
       src={`${config.publicCloudfrontURL}/deuterx-water-splash-v2.jpg`}
@@ -23,8 +23,8 @@ const Home = ({ content }) => (
     </Fade>
     <div className="home-section-2">
       <div className="home-section-2-content">
-        <h3>{oldContent.homeTagline}</h3>
-        <p>{oldContent.homeIntro}</p>
+        <h3>{content.allHome[0].intro}</h3>
+        <PortableText text={content.allHome[0].summaryRaw} />
         <NavLink to="/about">
           Learn more
           <i className="fas fa-angle-right" />
@@ -43,6 +43,6 @@ const Home = ({ content }) => (
       </NavLink>
     </div>
   </>
-);
+) : <></>);
 
 export default Home;
