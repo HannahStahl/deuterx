@@ -291,6 +291,7 @@ a.no-fuschia {
   width: 250px;
   height: 250px;
   margin: 30px;
+  object-fit: cover;
 }
 
 .team-member-details {
@@ -493,12 +494,6 @@ a.no-fuschia {
   .team-member {
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  .team-member img {
-    width: 175px;
-    height: 175px;
-    margin: 10px;
   }
 
   .team-member-details {
