@@ -19,7 +19,7 @@ const Routes = ({ content }) => {
     { path: '/', Component: Home, props: { content } },
     { path: '/about', Component: About, props: { content } },
     { path: '/news', Component: News, props: { content } },
-    { path: '/leadership', Component: Leadership },
+    { path: '/leadership', Component: Leadership, props: { content } },
     { path: '/partnerships', Component: Partnerships },
   ];
 
@@ -86,6 +86,38 @@ const App = withRouter((props) => {
               innovationRaw
               speedToMarketRaw
               validationRaw
+            }
+            allLeadership {
+              managementTeam {
+                _key
+                name
+                title
+                link
+                bioRaw
+                photo {
+                  asset {
+                    url
+                  }
+                }
+              }
+              advisors {
+                _key
+                name
+                title
+                link
+              }
+              KOLs {
+                _key
+                name
+                area
+                link
+              }
+              consultants {
+                _key
+                name
+                area
+                link
+              }
             }
           }
         `,

@@ -1,10 +1,9 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
-import content from '../content.json';
 import config from '../config';
 import TeamMember from './TeamMember';
 
-const Leadership = () => (
+const Leadership = ({ content }) => (content.allLeadership ? (
   <div className="leadership">
     <img
       src={`${config.publicCloudfrontURL}/deuterx-deuterium-hands.jpg`}
@@ -23,8 +22,8 @@ const Leadership = () => (
     <div className="leadership-section-2">
       <h1>Management Team</h1>
       <div className="team-members">
-        {content.team.map((member, index) => (
-          <TeamMember key={member.name} member={member} index={index} />
+        {content.allLeadership[0].managementTeam.map((member, index) => (
+          <TeamMember key={member._key} member={member} index={index} />
         ))}
       </div>
     </div>
@@ -34,10 +33,10 @@ const Leadership = () => (
           <h2>Advisors</h2>
           <div className="advisors">
             <ul>
-              {content.advisors.map((advisor) => (
+              {content.allLeadership[0].advisors.map((advisor) => (
                 <li key={advisor.name}>
                   <p>
-                    <a href={advisor.linkedIn}>{advisor.name}</a>
+                    <a href={advisor.link}>{advisor.name}</a>
                     <br />
                     <i>{advisor.title}</i>
                   </p>
@@ -50,12 +49,12 @@ const Leadership = () => (
           <h2>KOLs</h2>
           <div className="advisors">
             <ul>
-              {content.KOLs.map((KOL) => (
+              {content.allLeadership[0].KOLs.map((KOL) => (
                 <li key={KOL.name}>
                   <p>
-                    <a href={KOL.linkedIn}>{KOL.name}</a>
+                    <a href={KOL.link}>{KOL.name}</a>
                     <br />
-                    <i>{KOL.title}</i>
+                    <i>{KOL.area}</i>
                   </p>
                 </li>
               ))}
@@ -66,12 +65,12 @@ const Leadership = () => (
           <h2>Key Consultants</h2>
           <div className="advisors">
             <ul>
-              {content.consultants.map((consultant) => (
+              {content.allLeadership[0].consultants.map((consultant) => (
                 <li key={consultant.name}>
                   <p>
-                    <a href={consultant.linkedIn}>{consultant.name}</a>
+                    <a href={consultant.link}>{consultant.name}</a>
                     <br />
-                    <i>{consultant.title}</i>
+                    <i>{consultant.area}</i>
                   </p>
                 </li>
               ))}
@@ -81,6 +80,6 @@ const Leadership = () => (
       </div>
     </div>
   </div>
-);
+) : <></>);
 
 export default Leadership;
