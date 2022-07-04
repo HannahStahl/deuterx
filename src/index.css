@@ -374,12 +374,10 @@ a.no-fuschia {
   margin-bottom: 0px;
 }
 
-.partnership-card p {
+.partnership-card li {
   text-align: left;
-}
-
-.partnership-card p {
   margin-bottom: 5px;
+  font-size: 18px;
 }
 
 .partnerships-section-3 {

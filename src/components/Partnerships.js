@@ -4,8 +4,9 @@ import FormGroup from 'react-bootstrap/FormGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 import config from '../config';
+import PortableText from './PortableText';
 
-const Partnerships = () => {
+const Partnerships = ({ content }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -44,7 +45,7 @@ const Partnerships = () => {
     });
   };
 
-  return (
+  return (content.allPartnerships ? (
     <div className="partnerships">
       <div className="partnerships-section-1">
         <img
@@ -62,65 +63,12 @@ const Partnerships = () => {
       </div>
       <div className="partnerships-section-2">
         <div className="partnerships-cards">
-          <div className="partnership-card">
-            <h3>Neurological Disorders</h3>
-            <ul>
-              <li>
-                <p>
-                  <b>NTY-184</b>
-                  ,
-                  deuterated S-bupropion
-                  <br />
-                  <a href="https://www.neuromity.com/">
-                    Neuromity Therapeutics created
-                  </a>
-                  {' '}
-                  (Nov 2021)
-                </p>
-              </li>
-              <li><p>Undisclosed discovery stage assets</p></li>
-            </ul>
-          </div>
-          <div className="partnership-card">
-            <h3>Sold/Partnered Assets</h3>
-            <ul>
-              <li>
-                <p>
-                  <b>SP-3164</b>
-                  ,
-                  deuterated S-avadomide
-                  <br />
-                  Acquired by Salarius (Jan 2022)
-                </p>
-              </li>
-              <li>
-                <p>
-                  <b>PXL065</b>
-                  ,
-                  deuterated R-pioglitazone
-                  <br />
-                  <a href="https://www.businesswire.com/news/home/20180829005794/en/Poxel-Expands-Metabolic-Pipeline-Strategic-Acquisition-Agreement">
-                    Acquired by Poxel SA
-                  </a>
-                  {' '}
-                  (Aug 2018)
-                </p>
-              </li>
-              <li>
-                <p>
-                  <b>DP-053</b>
-                  ,
-                  deuterated S-lenalidomide
-                  <br />
-                  <a href="https://www.sec.gov/Archives/edgar/data/816284/000104746913001186/a2212863z10-k.htm">
-                    Acquired by Celgene
-                  </a>
-                  {' '}
-                  (Dec 2012)
-                </p>
-              </li>
-            </ul>
-          </div>
+          {content.allPartnerships[0].sections.map((section) => (
+            <div className="partnership-card">
+              <h3>{section.title}</h3>
+              <PortableText text={section.contentRaw} />
+            </div>
+          ))}
         </div>
       </div>
       <div className="partnerships-section-3">
@@ -185,7 +133,7 @@ const Partnerships = () => {
         </div>
       </div>
     </div>
-  );
+  ) : <></>);
 };
 
 export default Partnerships;

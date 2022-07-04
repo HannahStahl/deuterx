@@ -20,7 +20,7 @@ const Routes = ({ content }) => {
     { path: '/about', Component: About, props: { content } },
     { path: '/news', Component: News, props: { content } },
     { path: '/leadership', Component: Leadership, props: { content } },
-    { path: '/partnerships', Component: Partnerships },
+    { path: '/partnerships', Component: Partnerships, props: { content } },
   ];
 
   if (!routes.map(({ path }) => path).includes(window.location.pathname)) {
@@ -117,6 +117,12 @@ const App = withRouter((props) => {
                 name
                 area
                 link
+              }
+            }
+            allPartnerships {
+              sections {
+                title
+                contentRaw
               }
             }
           }
