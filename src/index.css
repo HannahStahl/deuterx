@@ -429,6 +429,7 @@ a.no-fuschia {
   display: flex;
   text-align: left;
   margin-bottom: 10px;
+  white-space: pre-wrap;
 }
 
 .contact-method .fas {

@@ -124,6 +124,8 @@ const App = withRouter((props) => {
                 title
                 contentRaw
               }
+              phone
+              address
             }
           }
         `,

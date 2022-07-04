@@ -113,7 +113,7 @@ const Partnerships = ({ content }) => {
           <div className="contact-info">
             <div className="contact-method">
               <p><i className="fas fa-phone-alt" /></p>
-              <p>(978) 662-5287</p>
+              <p>{content.allPartnerships[0].phone}</p>
             </div>
             <div className="contact-method">
               <p><i className="fas fa-envelope" /></p>
@@ -121,13 +121,7 @@ const Partnerships = ({ content }) => {
             </div>
             <div className="contact-method">
               <p><i className="fas fa-map-marker-alt" /></p>
-              <p>
-                DeuteRx, LLC
-                <br />
-                300 Brickstone Square, Suite 201
-                <br />
-                Andover MA 01810
-              </p>
+              <p>{content.allPartnerships[0].address}</p>
             </div>
           </div>
         </div>
