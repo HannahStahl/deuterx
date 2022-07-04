@@ -17,7 +17,7 @@ import config from './config';
 const Routes = ({ content }) => {
   const routes = [
     { path: '/', Component: Home, props: { content } },
-    { path: '/about', Component: About },
+    { path: '/about', Component: About, props: { content } },
     { path: '/news', Component: News, props: { content } },
     { path: '/leadership', Component: Leadership },
     { path: '/partnerships', Component: Partnerships },
@@ -80,6 +80,12 @@ const App = withRouter((props) => {
             }
             allArticle(sort: { _createdAt: DESC }) {
               ${NEWS_ITEM_FIELDS}
+            }
+            allAbout {
+              summaryRaw
+              innovationRaw
+              speedToMarketRaw
+              validationRaw
             }
           }
         `,

@@ -2,9 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 import config from '../config';
-import content from '../content.json';
+import PortableText from './PortableText';
 
-const About = () => (
+const About = ({ content }) => (content.allAbout ? (
   <div className="our-approach">
     <div className="our-approach-section-1">
       <img
@@ -22,9 +22,7 @@ const About = () => (
     </div>
     <div className="our-approach-section-2">
       <div className="our-approach-section-2-content">
-        {content.approach.map((paragraph) => (
-          <p key={paragraph} dangerouslySetInnerHTML={{ __html: paragraph }} />
-        ))}
+        <PortableText text={content.allAbout[0].summaryRaw} />
         <img
           src={`${config.publicCloudfrontURL}/deuterx-buproprion.png`}
           alt="Pioglitazone"
@@ -34,26 +32,20 @@ const About = () => (
     <div className="our-approach-section-2b">
       <div className="our-approach-section-2b-content">
         <h2>Innovation</h2>
-        {content.innovation.map((paragraph) => (
-          <p key={paragraph} dangerouslySetInnerHTML={{ __html: paragraph }} />
-        ))}
+        <PortableText text={content.allAbout[0].innovationRaw} />
       </div>
     </div>
     <div className="our-approach-section-3">
       <div className="our-approach-section-3-content">
         <h2>Speed to Market</h2>
-        {content.speedToMarket.map((paragraph) => (
-          <p key={paragraph} dangerouslySetInnerHTML={{ __html: paragraph }} />
-        ))}
+        <PortableText text={content.allAbout[0].speedToMarketRaw} />
       </div>
       <i className="fas fa-vial background-icon" />
     </div>
     <div className="our-approach-section-4">
       <div className="our-approach-section-4-content">
         <h2>Validation</h2>
-        {content.validation.map((paragraph) => (
-          <p key={paragraph} dangerouslySetInnerHTML={{ __html: paragraph }} />
-        ))}
+        <PortableText text={content.allAbout[0].validationRaw} />
         <div className="partnerships-link">
           <NavLink to="/partnerships">
             View partnership opportunities
@@ -63,6 +55,6 @@ const About = () => (
       </div>
     </div>
   </div>
-);
+) : <></>);
 
 export default About;

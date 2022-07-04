@@ -9,6 +9,9 @@ const serializers = {
       </pre>
     ),
   },
+  marks: {
+    sup: ({ children }) => <sup>{children}</sup>,
+  },
 };
 
 const PortableText = ({ text }) => (
