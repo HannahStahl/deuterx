@@ -72,6 +72,8 @@ const App = withRouter((props) => {
         query: `
           query {
             allHome {
+              title
+              subtitle
               intro
               summaryRaw
             }

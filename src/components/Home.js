@@ -16,8 +16,8 @@ const Home = ({ content }) => (content.allHome ? (
     <Fade>
       <div className="home-section-1">
         <div className="home-section-1-content">
-          <h1>Improving Medicines for Patients</h1>
-          <h3>with Deuterium-Enabled Chiral Switching</h3>
+          <h1>{content.allHome[0].title}</h1>
+          <h3>{content.allHome[0].subtitle}</h3>
         </div>
       </div>
     </Fade>
