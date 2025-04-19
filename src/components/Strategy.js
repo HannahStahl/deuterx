@@ -4,7 +4,7 @@ import { Fade } from 'react-reveal';
 import config from '../config';
 import PortableText from './PortableText';
 
-const About = ({ content }) => (content.allAbout ? (
+const Strategy = ({ content }) => (content.allAbout ? (
   <div className="our-approach">
     <div className="our-approach-section-1">
       <img
@@ -57,4 +57,4 @@ const About = ({ content }) => (content.allAbout ? (
   </div>
 ) : <></>);
 
-export default About;
+export default Strategy;

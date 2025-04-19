@@ -17,7 +17,7 @@ const NavBar = () => (
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="ml-auto" activeKey={window.location.pathname}>
-        <Nav.Link eventKey="1" as={NavLink} to="/about">About</Nav.Link>
+        <Nav.Link eventKey="1" as={NavLink} to="/strategy">R&D Strategy</Nav.Link>
         <Nav.Link eventKey="2" as={NavLink} to="/news">News</Nav.Link>
         <Nav.Link eventKey="3" as={NavLink} to="/leadership">Leadership</Nav.Link>
         <Nav.Link eventKey="4" as={NavLink} to="/partnerships">Pipeline / Partnerships</Nav.Link>

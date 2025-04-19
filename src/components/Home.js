@@ -25,7 +25,7 @@ const Home = ({ content }) => (content.allHome ? (
       <div className="home-section-2-content">
         <h3>{content.allHome[0].intro}</h3>
         <PortableText text={content.allHome[0].summaryRaw} />
-        <NavLink to="/about">
+        <NavLink to="/strategy">
           Learn more
           <i className="fas fa-angle-right" />
         </NavLink>
