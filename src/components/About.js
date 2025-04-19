@@ -3,7 +3,7 @@ import { Fade } from 'react-reveal';
 import config from '../config';
 import TeamMember from './TeamMember';
 
-const Leadership = ({ content }) => (content.allLeadership ? (
+const About = ({ content }) => (content.allLeadership ? (
   <div className="leadership">
     <img
       src={`${config.publicCloudfrontURL}/deuterx-deuterium-hands.jpg`}
@@ -82,4 +82,4 @@ const Leadership = ({ content }) => (content.allLeadership ? (
   </div>
 ) : <></>);
 
-export default Leadership;
+export default About;

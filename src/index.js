@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import Home from './components/Home';
 import Strategy from './components/Strategy';
 import News from './components/News';
-import Leadership from './components/Leadership';
+import About from './components/About';
 import Partnerships from './components/Partnerships';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
@@ -19,7 +19,7 @@ const Routes = ({ content }) => {
     { path: '/', Component: Home, props: { content } },
     { path: '/strategy', Component: Strategy, props: { content } },
     { path: '/news', Component: News, props: { content } },
-    { path: '/leadership', Component: Leadership, props: { content } },
+    { path: '/about', Component: About, props: { content } },
     { path: '/partnerships', Component: Partnerships, props: { content } },
   ];
 
