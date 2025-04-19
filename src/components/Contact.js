@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Fade } from 'react-reveal';
 import FormGroup from 'react-bootstrap/FormGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
@@ -46,7 +47,20 @@ const Contact = ({ content }) => {
   return (content.allContact ? (
     <div className="contact">
       <div className="contact-section-1">
-        <h3>For additional information, please send us a message.</h3>
+        <img
+          src={`${config.publicCloudfrontURL}/deuterx-contact.png`}
+          alt={config.businessName}
+          className="fixed-image contact-image"
+        />
+        <Fade><div className="image-overlay" /></Fade>
+        <Fade>
+          <div className="contact-section-1-content">
+            <h1>Contact Us</h1>
+            <h3>for Additional Information</h3>
+          </div>
+        </Fade>
+      </div>
+      <div className="contact-section-2">
         <div className="contact-form">
           <form onSubmit={handleSubmit}>
             <FormGroup controlId="name">
