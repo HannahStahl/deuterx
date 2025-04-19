@@ -43,7 +43,7 @@ const Contact = ({ content }) => {
     });
   };
 
-  return (content.allPartnerships ? (
+  return (content.allContact ? (
     <div className="contact">
       <div className="contact-section-1">
         <h3>For additional information, please send us a message.</h3>
@@ -85,10 +85,10 @@ const Contact = ({ content }) => {
             </Button>
           </form>
           <div className="contact-info">
-            {content.allPartnerships[0].phone && (
+            {content.allContact[0].phone && (
               <div className="contact-method">
                 <p><i className="fas fa-phone-alt" /></p>
-                <p>{content.allPartnerships[0].phone}</p>
+                <p>{content.allContact[0].phone}</p>
               </div>
             )}
             <div className="contact-method">
@@ -97,7 +97,7 @@ const Contact = ({ content }) => {
             </div>
             <div className="contact-method">
               <p><i className="fas fa-map-marker-alt" /></p>
-              <p>{content.allPartnerships[0].address}</p>
+              <p>{content.allContact[0].address}</p>
             </div>
           </div>
         </div>

@@ -128,6 +128,8 @@ const App = withRouter((props) => {
                 title
                 contentRaw
               }
+            }
+            allContact {
               phone
               address
             }
