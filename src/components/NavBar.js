@@ -21,6 +21,7 @@ const NavBar = () => (
         <Nav.Link eventKey="2" as={NavLink} to="/strategy">R&D Strategy</Nav.Link>
         <Nav.Link eventKey="3" as={NavLink} to="/news">News</Nav.Link>
         <Nav.Link eventKey="4" as={NavLink} to="/partnerships">Pipeline / Partnerships</Nav.Link>
+        <Nav.Link eventKey="5" as={NavLink} to="/contact">Contact</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

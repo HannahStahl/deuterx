@@ -230,7 +230,7 @@ a.no-fuschia {
   margin-top: 40px;
 }
 
-.leadership-section-2 h1, .leadership-section-3 h2, .partnerships-section-3 h3, .news-section-2 h1, .news-section-3 h1 {
+.leadership-section-2 h1, .leadership-section-3 h2, .contact-section-1 h3, .news-section-2 h1, .news-section-3 h1 {
   margin-bottom: 30px;
 }
 
@@ -381,12 +381,12 @@ a.no-fuschia {
   font-size: 18px;
 }
 
-.partnerships-section-3 {
+.contact-section-1 {
   background-color: white;
   padding: 60px;
 }
 
-.partnerships form {
+.contact form {
   width: min(500px, 100%);
   margin: 30px;
 }
@@ -413,7 +413,7 @@ a.no-fuschia {
   box-shadow: 0 0 0 0.2rem var(--light-fuschia) !important;
 }
 
-.contact {
+.contact-form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -479,7 +479,7 @@ a.no-fuschia {
     padding: 30px 20px;
   }
 
-  .partnerships-section-2, .partnerships-section-3, .news-section-2, .news-section-3, .our-approach-section-2, .our-approach-section-2b, .our-approach-section-3, .our-approach-section-4, .home-section-2, .home-section-3 {
+  .partnerships-section-2, .contact-section-1, .news-section-2, .news-section-3, .our-approach-section-2, .our-approach-section-2b, .our-approach-section-3, .our-approach-section-4, .home-section-2, .home-section-3 {
     padding: 30px;
   }
 
@@ -505,12 +505,12 @@ a.no-fuschia {
     text-align: center;
   }
 
-  .partnerships form {
+  .contact form {
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .partnerships-section-3 h3 {
+  .contact-section-1 h3 {
     margin-bottom: 0px;
   }
 

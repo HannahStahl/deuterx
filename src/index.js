@@ -10,6 +10,7 @@ import About from './components/About';
 import Strategy from './components/Strategy';
 import News from './components/News';
 import Partnerships from './components/Partnerships';
+import Contact from './components/Contact';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import config from './config';
@@ -21,6 +22,7 @@ const Routes = ({ content }) => {
     { path: '/strategy', Component: Strategy, props: { content } },
     { path: '/news', Component: News, props: { content } },
     { path: '/partnerships', Component: Partnerships, props: { content } },
+    { path: '/contact', Component: Contact, props: { content } },
   ];
 
   if (!routes.map(({ path }) => path).includes(window.location.pathname)) {
