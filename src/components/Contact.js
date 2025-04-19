@@ -85,10 +85,12 @@ const Contact = ({ content }) => {
             </Button>
           </form>
           <div className="contact-info">
-            <div className="contact-method">
-              <p><i className="fas fa-phone-alt" /></p>
-              <p>{content.allPartnerships[0].phone}</p>
-            </div>
+            {content.allPartnerships[0].phone && (
+              <div className="contact-method">
+                <p><i className="fas fa-phone-alt" /></p>
+                <p>{content.allPartnerships[0].phone}</p>
+              </div>
+            )}
             <div className="contact-method">
               <p><i className="fas fa-envelope" /></p>
               <a className="no-fuschia" href={`mailto:${config.emailAddress}`}>{config.emailAddress}</a>
