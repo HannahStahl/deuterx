@@ -20,18 +20,18 @@ const News = ({ content }) => (
       </div>
     </Fade>
     <div className="news-section-2">
-      <h1>Publications & Posters</h1>
-      <div className="news-cards">
-        {(content.allPublication || []).map((publication) => (
-          <NewsItem key={publication._id} {...publication} />
-        ))}
-      </div>
-    </div>
-    <div className="news-section-3">
       <h1>News & In the Media</h1>
       <div className="news-cards">
         {(content.allArticle || []).map((article) => (
           <NewsItem key={article._id} {...article} />
+        ))}
+      </div>
+    </div>
+    <div className="news-section-3">
+      <h1>Publications & Posters</h1>
+      <div className="news-cards">
+        {(content.allPublication || []).map((publication) => (
+          <NewsItem key={publication._id} {...publication} />
         ))}
       </div>
     </div>
